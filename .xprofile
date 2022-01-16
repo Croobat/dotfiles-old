@@ -1,0 +1,12 @@
+xrandr --output HDMI-0 --mode 1920x1080 --rate 99.93
+xrandr --output HDMI1 --auto --pos -1600x500
+setxkbmap -layout us -variant altgr-intl
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+export BROWSER=qutebrowser
+
+sxhkd -t 2 &
+xbindkeys &
+picom &
+flameshot &
+nitrogen --restore &
