@@ -3,6 +3,9 @@ xrandr --output HDMI1 --auto --pos -1600x500
 setxkbmap -layout us -variant altgr-intl
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+xset -dmps
+xset s off
+
 export BROWSER=qutebrowser
 
 sxhkd -t 2 &
