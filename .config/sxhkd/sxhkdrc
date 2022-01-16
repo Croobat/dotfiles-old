@@ -1,0 +1,130 @@
+### Basic binds ###
+# Terminal
+#super + Return
+#    alacritty --working-directory /home/tony
+
+#File manager
+#super + shift + Return
+#   Alacritty -e ranger /home/tony
+
+# File manager
+super + alt + e
+    nautilus
+
+# Web browser
+super + alt + w
+    qutebrowser
+
+# Image viewer
+super + alt + p
+    qimgv
+
+
+
+### Tools ###
+# Rofi
+super + r
+    rofi -show drun
+super + F1
+    rofi -show window
+super + F2
+    rofi -show run
+super + F3
+    rofi -show ssh
+
+# Screenshot
+Print
+    flameshot gui
+super + Print
+    simple-scan
+
+# Mail
+XF86Mail
+   thunderbird
+
+# Htop
+control + shift + Escape 
+    alacritty -e htop
+
+# Volume control
+super + shift + v
+    pavucontrol
+super + control + shift + v
+    alacritty -e pulsemixer
+
+# Help
+super + question 
+    /home/tony/.scripts/help-keybindings.sh
+
+### Apps ###
+## App packs
+# (Art) Asep | Blen | Ink | Kri | Tcty
+super + alt + a ; {a, b, i, k, t}
+    {aseprite, blender, inkscape, krita, tenacity} 
+
+# (IDEs) Cod | Gen | Net | Pyc | VSC
+super + alt + i ; {c, g, n, p, v}
+    {codeblocks, geany, netbeans, pycharm, vscodium}
+
+# (Misc) Calibre | Cheese 
+super + alt + m ; {c,p}
+    {calibre,cheese}
+
+
+## Apps
+# Virtualbox
+super + alt + b
+    virtualbox
+
+# Cmus
+super + alt + c
+    alacritty -e cmus
+
+# Discord
+super + alt + d
+    discord
+
+# FreeCAD
+super + alt + f 
+    freecad
+
+# Godot
+#super + alt + g
+#    godot 
+
+# Kdenlive
+super + alt + k
+    kdenlive
+
+# Libreoffice
+super + alt + l
+    libreoffice
+
+# Simplenote
+super + alt + n
+    alacritty -e sncli
+
+# OBS
+super + alt + o
+    obs-studio
+
+# Steam
+super + alt + s
+    steam
+
+# Spotify
+super + alt + t
+    alacritty -e ncspot
+
+# VLC
+super + alt + v
+    vlc
+
+
+## Webapps
+# Whatsapp
+super + alt + z
+    franz
+
+# super + alt       OCUPADOS         LIBRES
+#               abcdefghiklmnopstvwz  hjqruxy

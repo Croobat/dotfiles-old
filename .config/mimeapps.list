@@ -1,0 +1,22 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-4U5AF1.desktop
+message/rfc822=userapp-Thunderbird-4U5AF1.desktop
+x-scheme-handler/mid=userapp-Thunderbird-4U5AF1.desktop
+image/png=feh.desktop
+image/tif=feh.desktop
+image/tiff=feh.desktop
+image/bmp=feh.desktop
+image/jpg=feh.desktop
+image/jpeg=feh.desktop
+image/gif=feh.desktop
+image/raw=feh.desktop
+x-scheme-handler/ftp=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-4U5AF1.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-4U5AF1.desktop;

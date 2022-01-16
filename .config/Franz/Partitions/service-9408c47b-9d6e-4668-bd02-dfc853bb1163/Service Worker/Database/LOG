@@ -1,0 +1,3 @@
+2022/01/15-18:59:42.927 890 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/MANIFEST-000001
+2022/01/15-18:59:42.955 890 Recovering log #3
+2022/01/15-18:59:42.987 890 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/000003.log 

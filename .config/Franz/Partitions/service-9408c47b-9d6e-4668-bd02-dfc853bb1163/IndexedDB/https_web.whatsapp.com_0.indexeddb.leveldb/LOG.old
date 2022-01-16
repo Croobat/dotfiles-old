@@ -1,0 +1,46 @@
+2022/01/15-15:54:15.100 1dca Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/15-15:54:15.180 1dca Recovering log #500
+2022/01/15-15:54:15.224 1dca Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000500.log 
+2022/01/15-15:59:27.905 1dcf Level-0 table #511: started
+2022/01/15-15:59:28.646 1dcf Level-0 table #511: 1204223 bytes OK
+2022/01/15-15:59:28.862 1dcf Delete type=0 #500
+2022/01/15-15:59:31.803 1fa8 Compacting 1@1 + 7@2 files
+2022/01/15-15:59:33.204 1fa8 Generated table #512@1: 8258 keys, 2166614 bytes
+2022/01/15-15:59:33.481 1fa8 Generated table #513@1: 3529 keys, 2160502 bytes
+2022/01/15-15:59:33.748 1fa8 Generated table #514@1: 15449 keys, 2180743 bytes
+2022/01/15-15:59:34.128 1fa8 Generated table #515@1: 28219 keys, 2269232 bytes
+2022/01/15-15:59:34.381 1fa8 Generated table #516@1: 21678 keys, 2147226 bytes
+2022/01/15-15:59:34.659 1fa8 Generated table #517@1: 103380 keys, 2254147 bytes
+2022/01/15-15:59:34.992 1fa8 Generated table #518@1: 87502 keys, 2071209 bytes
+2022/01/15-15:59:34.992 1fa8 Compacted 1@1 + 7@2 files => 15249673 bytes
+2022/01/15-15:59:35.102 1fa8 compacted to: files[ 0 0 7 0 0 0 0 ]
+2022/01/15-15:59:35.106 1fa8 Delete type=2 #502
+2022/01/15-15:59:35.106 1fa8 Delete type=2 #503
+2022/01/15-15:59:35.107 1fa8 Delete type=2 #504
+2022/01/15-15:59:35.107 1fa8 Delete type=2 #505
+2022/01/15-15:59:35.107 1fa8 Delete type=2 #506
+2022/01/15-15:59:35.107 1fa8 Delete type=2 #507
+2022/01/15-15:59:35.108 1fa8 Delete type=2 #508
+2022/01/15-15:59:35.108 1fa8 Delete type=2 #511
+2022/01/15-17:26:19.216 21c7 Level-0 table #520: started
+2022/01/15-17:26:19.538 21c7 Level-0 table #520: 1312111 bytes OK
+2022/01/15-17:26:19.614 21c7 Delete type=0 #510
+2022/01/15-17:26:46.369 21c7 Compacting 1@1 + 7@2 files
+2022/01/15-17:26:47.015 21c7 Generated table #521@1: 8253 keys, 2165589 bytes
+2022/01/15-17:26:47.300 21c7 Generated table #522@1: 3452 keys, 2158257 bytes
+2022/01/15-17:26:47.560 21c7 Generated table #523@1: 14741 keys, 2178393 bytes
+2022/01/15-17:26:47.893 21c7 Generated table #524@1: 28064 keys, 2268319 bytes
+2022/01/15-17:26:48.121 21c7 Generated table #525@1: 19827 keys, 2146273 bytes
+2022/01/15-17:26:48.393 21c7 Generated table #526@1: 103513 keys, 2254355 bytes
+2022/01/15-17:26:48.726 21c7 Generated table #527@1: 92979 keys, 2248332 bytes
+2022/01/15-17:26:48.909 21c7 Generated table #528@1: 5136 keys, 287325 bytes
+2022/01/15-17:26:48.910 21c7 Compacted 1@1 + 7@2 files => 15706843 bytes
+2022/01/15-17:26:48.992 21c7 compacted to: files[ 0 0 8 0 0 0 0 ]
+2022/01/15-17:26:48.996 21c7 Delete type=2 #512
+2022/01/15-17:26:48.996 21c7 Delete type=2 #513
+2022/01/15-17:26:48.997 21c7 Delete type=2 #514
+2022/01/15-17:26:48.997 21c7 Delete type=2 #515
+2022/01/15-17:26:48.997 21c7 Delete type=2 #516
+2022/01/15-17:26:48.997 21c7 Delete type=2 #517
+2022/01/15-17:26:48.998 21c7 Delete type=2 #518
+2022/01/15-17:26:48.998 21c7 Delete type=2 #520

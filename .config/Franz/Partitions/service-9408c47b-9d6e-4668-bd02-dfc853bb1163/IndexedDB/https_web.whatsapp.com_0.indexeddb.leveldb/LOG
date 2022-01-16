@@ -1,0 +1,49 @@
+2022/01/15-18:59:45.720 88f Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/15-18:59:45.747 88f Recovering log #519
+2022/01/15-18:59:45.828 88f Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000519.log 
+2022/01/15-19:00:24.738 8be Level-0 table #531: started
+2022/01/15-19:00:28.281 8be Level-0 table #531: 1212490 bytes OK
+2022/01/15-19:00:28.405 8be Delete type=0 #519
+2022/01/15-19:00:29.271 8be Compacting 1@1 + 8@2 files
+2022/01/15-19:00:33.317 8be Generated table #532@1: 8292 keys, 2167069 bytes
+2022/01/15-19:00:33.908 8be Generated table #533@1: 3428 keys, 2158445 bytes
+2022/01/15-19:00:34.461 8be Generated table #534@1: 14483 keys, 2178326 bytes
+2022/01/15-19:00:35.006 8be Generated table #535@1: 28101 keys, 2268626 bytes
+2022/01/15-19:00:35.793 8be Generated table #536@1: 18717 keys, 2148215 bytes
+2022/01/15-19:00:36.425 8be Generated table #537@1: 103719 keys, 2256139 bytes
+2022/01/15-19:00:36.835 8be Generated table #538@1: 91798 keys, 2240986 bytes
+2022/01/15-19:00:37.136 8be Generated table #539@1: 15252 keys, 656597 bytes
+2022/01/15-19:00:37.136 8be Compacted 1@1 + 8@2 files => 16074403 bytes
+2022/01/15-19:00:37.246 8be compacted to: files[ 0 0 8 0 0 0 0 ]
+2022/01/15-19:00:37.247 8be Delete type=2 #521
+2022/01/15-19:00:37.247 8be Delete type=2 #522
+2022/01/15-19:00:37.248 8be Delete type=2 #523
+2022/01/15-19:00:37.248 8be Delete type=2 #524
+2022/01/15-19:00:37.248 8be Delete type=2 #525
+2022/01/15-19:00:37.248 8be Delete type=2 #526
+2022/01/15-19:00:37.248 8be Delete type=2 #527
+2022/01/15-19:00:37.248 8be Delete type=2 #528
+2022/01/15-19:00:37.248 8be Delete type=2 #531
+2022/01/15-19:35:20.367 2f89 Level-0 table #541: started
+2022/01/15-19:35:21.330 2f89 Level-0 table #541: 1330688 bytes OK
+2022/01/15-19:35:21.416 2f89 Delete type=0 #530
+2022/01/15-19:35:42.846 2f89 Compacting 1@1 + 8@2 files
+2022/01/15-19:35:43.218 2f89 Generated table #542@1: 8351 keys, 2165752 bytes
+2022/01/15-19:35:43.508 2f89 Generated table #543@1: 3406 keys, 2160287 bytes
+2022/01/15-19:35:43.787 2f89 Generated table #544@1: 13801 keys, 2175717 bytes
+2022/01/15-19:35:44.098 2f89 Generated table #545@1: 28276 keys, 2268136 bytes
+2022/01/15-19:35:44.441 2f89 Generated table #546@1: 14480 keys, 2145544 bytes
+2022/01/15-19:35:44.709 2f89 Generated table #547@1: 105021 keys, 2257328 bytes
+2022/01/15-19:35:45.200 2f89 Generated table #548@1: 94567 keys, 2244173 bytes
+2022/01/15-19:35:45.374 2f89 Generated table #549@1: 19786 keys, 926085 bytes
+2022/01/15-19:35:45.375 2f89 Compacted 1@1 + 8@2 files => 16343022 bytes
+2022/01/15-19:35:45.456 2f89 compacted to: files[ 0 0 8 0 0 0 0 ]
+2022/01/15-19:35:45.461 2f89 Delete type=2 #532
+2022/01/15-19:35:45.461 2f89 Delete type=2 #533
+2022/01/15-19:35:45.461 2f89 Delete type=2 #534
+2022/01/15-19:35:45.461 2f89 Delete type=2 #535
+2022/01/15-19:35:45.462 2f89 Delete type=2 #536
+2022/01/15-19:35:45.462 2f89 Delete type=2 #537
+2022/01/15-19:35:45.462 2f89 Delete type=2 #538
+2022/01/15-19:35:45.462 2f89 Delete type=2 #539
+2022/01/15-19:35:45.462 2f89 Delete type=2 #541

@@ -1,0 +1,6 @@
+2022/01/15-15:54:12.834 1dc2 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
+2022/01/15-15:54:12.867 1dc2 Recovering log #3
+2022/01/15-15:54:12.903 1dc2 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000003.log 
+2022/01/15-16:55:14.014 21c7 Level-0 table #5: started
+2022/01/15-16:55:14.192 21c7 Level-0 table #5: 15004 bytes OK
+2022/01/15-16:55:14.246 21c7 Delete type=0 #3
