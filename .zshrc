@@ -82,7 +82,7 @@ plugins=(
     )
 
     # Auto notify plugin
-zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger'
+zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger|joplin'
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
 zstyle ':notify:*' always-check-active-window no
@@ -164,6 +164,7 @@ alias bindsconf="vim ~/.config/sxhkd/sxhkdrc"
 alias quteconf="vim ~/.config/qutebrowser/config.py"
 alias qutequick="vim ~/.config/qutebrowser/quickmarks"
 alias profile="vim ~/.xprofile"
+alias vimconf="cd ~/.config/nvim"
 
 # location aliases
 alias desk="cd /usr/share/applications"

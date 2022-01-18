@@ -1,3 +1,3 @@
-2022/01/17-08:42:59.843 9da Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Session Storage/MANIFEST-000001
-2022/01/17-08:42:59.924 9da Recovering log #3
-2022/01/17-08:42:59.972 9da Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Session Storage/000003.log 
+2022/01/18-10:36:49.287 8c5 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Session Storage/MANIFEST-000001
+2022/01/18-10:36:49.288 8c5 Recovering log #3
+2022/01/18-10:36:49.288 8c5 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Session Storage/000003.log 

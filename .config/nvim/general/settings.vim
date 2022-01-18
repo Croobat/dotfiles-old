@@ -1,6 +1,3 @@
-" set leader key
-" let g:mapleader = \"\<Space>"
-
 "syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 " set nowrap                              " Display long lines as just one line
@@ -8,15 +5,15 @@ set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
 set ruler              			       " Show the cursor position all the time
-set cmdheight=2                         " More space for displaying messages
+set cmdheight=1                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
-set tabstop=4                           " Insert 3 spaces for a tab
-set shiftwidth=4                        " Change the number of space characters inserted for indentation
+set tabstop=3                           " Insert 3 spaces for a tab
+set shiftwidth=3                        " Change the number of space characters inserted for indentation
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
@@ -35,10 +32,11 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set number                              " Number line "
 " set relativenumber                    " Relative number line
-set numberwidth=2                       " Number distance"
+set numberwidth=1                       " Number distance"
 set autochdir                           " Your working directory will always be the same as your working directory"
-set nohlsearch
-set ignorecase
+set nohlsearch                          " Disable highlighting in search"
+set ignorecase                          " Case insensitive search"
+set foldmethod=marker                   " Marker fold method {{{}}}"
 
 " let g:coc_start_at_startup = v:false
 

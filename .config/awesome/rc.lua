@@ -66,6 +66,7 @@ awful.layout.layouts = {
     awful.layout.suit.floating,
     awful.layout.suit.max,
 }
+--}}}
 
 -- {{{ Menu
 -- Create a launcher widget and a main menu
@@ -84,6 +85,7 @@ mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesom
 
 -- Keyboard map indicator and switcher
 mykeyboardlayout = awful.widget.keyboardlayout()
+-- }}}
 
 -- {{{ Wibar
 -- Create a textclock widget

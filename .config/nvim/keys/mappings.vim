@@ -1,3 +1,5 @@
+nnoremap <space> <nop>
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -19,10 +21,6 @@ nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
-" Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
-" Use control-c instead of escape
-nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -36,9 +34,14 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <Leader>o o<Esc>^Da
-nnoremap <Leader>O O<Esc>^Da
+" nnoremap <Leader>o o<Esc>^Da
+" nnoremap <Leader>O O<Esc>^Da
 
+" Folding
+nnoremap , za
+nnoremap 'm o<esc>I## {{{<CR><CR>}}}<esc>kkI##  <esc>i
+
+"""Leader keys"""
 " Close buffer
 nnoremap <leader>q :Sayonara<CR>
 
@@ -47,14 +50,18 @@ nnoremap <leader>coc :CocToggle<CR>
 
 " Fzf
 nnoremap <leader><leader> :Rg<CR>
-nnoremap <leader>fi       :Files<CR>
-nnoremap <leader>fz       :FZF -e -i<CR>
+nnoremap <leader>i        :Files<CR>
+nnoremap <leader>z        :FZF -e -i<CR>
 nnoremap <leader>C        :Colors<CR>
 nnoremap <leader>b        :Buffers<CR>
 nnoremap <leader>l        :Lines<CR>
 nnoremap <leader>g        :GFiles<CR>
-nnoremap <leader>ag       :Ag!<C-R><C-W><CR>
+nnoremap <leader>bg       :Ag!<C-R><C-W><CR>
 nnoremap <leader>h        :History<CR>
 
 " Colorizer
 nnoremap <leader>c        :ColorizerToggle<CR>
+
+" insert line
+nnoremap <enter> o<esc>k
+nnoremap <A-enter> O<esc>j

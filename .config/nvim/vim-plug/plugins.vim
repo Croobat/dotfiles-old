@@ -41,5 +41,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
 
+    " More target operators
+    Plug 'wellle/targets.vim'
+
+    " Visible marks
+    Plug 'kshenoy/vim-signature'
+
 call plug#end()
 
