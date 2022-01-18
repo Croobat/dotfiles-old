@@ -1,7 +1,17 @@
 {
     "telemetry.machineId": "b25bd3f64368a9dd013abfd0b321cd8fc4cda4781a0afe7d40b30a93ae5100fa",
     "openedPathsList": {
-        "entries": []
+        "entries": [
+            {
+                "folderUri": "file:///home/tony/Documents/Programming/Platzi/frontend-developer"
+            },
+            {
+                "folderUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web"
+            },
+            {
+                "fileUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web/index.js"
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -14,6 +24,10 @@
                     {
                         "id": "workbench.action.newWindow",
                         "label": "New &&Window"
+                    },
+                    {
+                        "id": "welcome.showNewFileEntries",
+                        "label": "New File..."
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -37,8 +51,46 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/tony/Documents/Programming/Platzi/frontend-developer",
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/frontend-developer",
+                                        "path": "/home/tony/Documents/Programming/Platzi/frontend-developer",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/frontend-developer"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web",
+                                        "path": "/home/tony/Documents/Programming/Platzi/Web/Mi primer web",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/Web/Mi primer web"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/tony/Documents/Programming/Platzi/Web/Mi primer web/index.js",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/Web/Mi primer web/index.js"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -162,6 +214,10 @@
                     {
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -357,7 +413,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -371,7 +428,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -431,6 +489,13 @@
                                 {
                                     "id": "workbench.action.splitEditorRight",
                                     "label": "Split &&Right"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -525,7 +590,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -553,8 +618,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -563,8 +627,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -876,8 +939,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1018,6 +1080,10 @@
                 "label": "Ctrl+Shift+N",
                 "userSettingsLabel": "ctrl+shift+n"
             },
+            "welcome.showNewFileEntries": {
+                "label": "Ctrl+Alt+Super+N",
+                "userSettingsLabel": "ctrl+alt+meta+n"
+            },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O",
                 "userSettingsLabel": "ctrl+o"
@@ -1064,6 +1130,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1202,6 +1273,11 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1427,40 +1503,42 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#282a36",
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
+            "foreground": "#f8f8f2",
+            "background": "#282a36",
+            "editorBackground": "#282a36",
+            "titleBarBackground": "#21222c",
+            "activityBarBackground": "#343746",
+            "sideBarBackground": "#21222c",
+            "statusBarBackground": "#191a21",
+            "statusBarNoFolderBackground": "#191a21"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 245,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/tony/.config/VSCodium/Backups/1642016357868",
+            "folder": "file:///home/tony/Documents/Programming/Platzi/frontend-developer",
+            "backupPath": "/home/tony/.config/VSCodium/Backups/ca9df7ee955f1111a8594cd8fb50678c",
             "uiState": {
                 "mode": 1,
-                "x": 2567,
-                "y": 874,
-                "width": 943,
-                "height": 270
+                "x": 1610,
+                "y": 36,
+                "width": 1326,
+                "height": 1034
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/tony/Documents/Programming/Platzi"
 }

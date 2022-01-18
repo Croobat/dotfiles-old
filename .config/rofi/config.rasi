@@ -6,6 +6,10 @@ configuration {
   modi: "window,drun";
   show-icons: true;
   icon-theme: "Papirus";
+  terminal: "alacritty";
 }
 
+
 @theme "/themes/dark.rasi"
+
+

@@ -38,3 +38,23 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+" Close buffer
+nnoremap <leader>q :Sayonara<CR>
+
+" Coc
+nnoremap <leader>coc :CocToggle<CR>
+
+" Fzf
+nnoremap <leader><leader> :Rg<CR>
+nnoremap <leader>fi       :Files<CR>
+nnoremap <leader>fz       :FZF -e -i<CR>
+nnoremap <leader>C        :Colors<CR>
+nnoremap <leader>b        :Buffers<CR>
+nnoremap <leader>l        :Lines<CR>
+nnoremap <leader>g        :GFiles<CR>
+nnoremap <leader>ag       :Ag!<C-R><C-W><CR>
+nnoremap <leader>h        :History<CR>
+
+" Colorizer
+nnoremap <leader>c        :ColorizerToggle<CR>

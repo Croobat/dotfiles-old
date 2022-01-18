@@ -3,6 +3,9 @@ xrandr --output HDMI1 --auto --pos -1600x500
 setxkbmap -layout us -variant altgr-intl
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+xinput set-prop 'Logitech G203 LIGHTSYNC Gaming Mouse' 'libinput Accel Speed' -0.5
+
+setterm -blank 0
 xset -dmps
 xset s off
 

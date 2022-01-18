@@ -88,9 +88,12 @@ zstyle ':notify:*' error-log /dev/null
 zstyle ':notify:*' always-check-active-window no
 zstyle ':notify:*' expire-time 2500
 
-
 ZSH_DISABLE_COMPFIX=true
+
 source $ZSH/oh-my-zsh.sh
+
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
 
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff79c6'
 
@@ -134,6 +137,10 @@ alias getkey="$HOME/.scripts/getkey"
 alias history="less +G ~/.zsh_history"
 alias t="trash"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias findpacman="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk \"{print \\$2}\")' | xargs -ro sudo pacman -S"
+alias findaur="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \\$2}\")\' | xargs -ro  yay -S"
+alias tran='trans -brief :en'
+alias trad='trans -brief :es'
 
 # App aliases
 alias vim="nvim"

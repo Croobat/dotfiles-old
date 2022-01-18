@@ -55,5 +55,10 @@
     m:0x50 + c:133
     Mod2+Mod4 + Super_L 
 
+#Steam
+"steam"
+    m:0x58 + c:39
+    Alt+Mod2+Mod4 + s 
+
 #
 # End of xbindkeys configuration

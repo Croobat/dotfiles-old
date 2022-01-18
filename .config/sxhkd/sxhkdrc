@@ -25,16 +25,21 @@ super + alt + p
 # Rofi
 super + r
     rofi -show drun
+# Show windows
 super + F1
     rofi -show window
+# Show commands
 super + F2
     rofi -show run
+# Show ssh
 super + F3
     rofi -show ssh
+
 
 # Screenshot
 Print
     flameshot gui
+# Escanear
 super + Print
     simple-scan
 
@@ -109,8 +114,8 @@ super + alt + o
     obs-studio
 
 # Steam
-super + alt + s
-    steam
+#super + alt + s
+#    steam
 
 # Spotify
 super + alt + t

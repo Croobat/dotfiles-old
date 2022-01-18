@@ -2,9 +2,12 @@
 #   qute://help/configuring.html
 #   qute://help/settings.html
 
+import dracula.draw
 import subprocess
 import os
 from qutebrowser.api import interceptor
+
+c.colors.webpage.bg = '#242630'
 
 # Load existing settings made via :set
 config.load_autoconfig()
@@ -16,33 +19,35 @@ c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}',
                        'yt': 'https://www.youtube.com/results?search_query={}',
                        'am': 'https://www.amazon.com/s?k={}',
                        'aw': 'https://wiki.archlinux.org/?search={}',
-                       'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
-                       'red': 'https://www.reddit.com/r/{}', 
+                       #                       'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
+                       'aur': 'https://archlinux.org/packages/?sort=&q={}',
+                       'red': 'https://www.reddit.com/r/{}',
                        'wiki': 'https://en.wikipedia.org/wiki/{}'}
 
 c.completion.web_history.exclude = [
-                        'google.com'
+    'google.com'
 ]
 
 # Aliases for commands. The keys of the given dictionary are the
 # aliases, while the values are the commands they map to.
 # Type: Dict
-c.aliases = {'q': 'close', 
-             'qa': 'quit', 
-             'w': 'session-save', 
-             'wq': 'quit --save', 
+c.aliases = {'q': 'close',
+             'qa': 'quit',
+             'w': 'session-save',
+             'wq': 'quit --save',
              'wqa': 'quit --save',
              }
 
-#Bindings
+# Bindings
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('xb', 'config-cycle statusbar.show always never')
 config.bind('xt', 'config-cycle tabs.show always never')
-config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
+config.bind(
+    'xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
 config.bind('j', 'run-with-count 5 scroll down')
 config.bind('k', 'run-with-count 5 scroll up')
-config.bind('J','tab-prev')
-config.bind('K','tab-next')
+config.bind('J', 'tab-prev')
+config.bind('K', 'tab-next')
 
 config.bind('ZQ', 'quit')
 config.bind('ZZ', 'quit --save')
@@ -167,7 +172,8 @@ config.set('content.cookies.accept', 'all', 'devtools://*')
 # Value to send in the `Accept-Language` header. Note that the value
 # read from JavaScript is always the global value.
 # Type: String
-config.set('content.headers.accept_language', '', 'https://matchmaker.krunker.io/*')
+config.set('content.headers.accept_language',
+           '', 'https://matchmaker.krunker.io/*')
 
 # User agent to send.  The following placeholders are defined:  *
 # `{os_info}`: Something like "X11; Linux x86_64". * `{webkit_version}`:
@@ -183,7 +189,8 @@ config.set('content.headers.accept_language', '', 'https://matchmaker.krunker.io
 # between 5.12 and 5.14 (inclusive), changing the value exposed to
 # JavaScript requires a restart.
 # Type: FormatString
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}', 'https://web.whatsapp.com/')
+config.set('content.headers.user_agent',
+           'Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}', 'https://web.whatsapp.com/')
 
 # User agent to send.  The following placeholders are defined:  *
 # `{os_info}`: Something like "X11; Linux x86_64". * `{webkit_version}`:
@@ -199,7 +206,8 @@ config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/{w
 # between 5.12 and 5.14 (inclusive), changing the value exposed to
 # JavaScript requires a restart.
 # Type: FormatString
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:90.0) Gecko/20100101 Firefox/90.0', 'https://accounts.google.com/*')
+config.set('content.headers.user_agent',
+           'Mozilla/5.0 ({os_info}; rv:90.0) Gecko/20100101 Firefox/90.0', 'https://accounts.google.com/*')
 
 # User agent to send.  The following placeholders are defined:  *
 # `{os_info}`: Something like "X11; Linux x86_64". * `{webkit_version}`:
@@ -215,7 +223,8 @@ config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}; rv:90.0) Gecko
 # between 5.12 and 5.14 (inclusive), changing the value exposed to
 # JavaScript requires a restart.
 # Type: FormatString
-config.set('content.headers.user_agent', 'Mozilla/5.0 ({os_info}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99 Safari/537.36', 'https://*.slack.com/*')
+config.set('content.headers.user_agent',
+           'Mozilla/5.0 ({os_info}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99 Safari/537.36', 'https://*.slack.com/*')
 
 # Load images automatically in web pages.
 # Type: Bool
@@ -275,13 +284,10 @@ c.statusbar.show = 'never'
 #   - switching: Show the tab bar when switching tabs.
 c.tabs.show = 'multiple'
 
-import dracula.draw
 
 dracula.draw.blood(c, {
     'spacing': {
-        'vertical': 2,
+        'vertical': 1,
         'horizontal': 0
     }
 })
-
-

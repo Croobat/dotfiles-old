@@ -10,11 +10,36 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
+
+    " Dracula theme
+    Plug 'Mofiqul/dracula.nvim'
+
     " File Explorer
     Plug 'scrooloose/NERDTree'
+
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    Plug 'Mofiqul/dracula.nvim'
+
+    " Intellisense Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Status line
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    " Ranger FM
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    
+    " Sayonara (close buffers)
+    Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
+
+    " FZF
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
+
+    " Colors
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
 
 call plug#end()
 

@@ -20,6 +20,7 @@ settings:
   colors.webpage.preferred_color_scheme:
     global: dark
   content.notifications.enabled:
+    https://platzi.com: true
     https://web.whatsapp.com: false
     https://www.reddit.com: true
   content.user_stylesheets:
@@ -34,6 +35,6 @@ settings:
   scrolling.smooth:
     global: true
   statusbar.show:
-    global: never
+    global: always
   tabs.show:
     global: always

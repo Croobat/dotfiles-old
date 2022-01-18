@@ -36,7 +36,7 @@ M.colors = function()
 end
 
 M.apply_term_colors = function(colors)
-	vim.g.terminal_color_0 = colors.back
+	vim.g.terminal_color_0 = colors.black
 	vim.g.terminal_color_1 = colors.red
 	vim.g.terminal_color_2 = colors.green
 	vim.g.terminal_color_3 = colors.yellow
@@ -46,6 +46,7 @@ M.apply_term_colors = function(colors)
 	vim.g.terminal_color_7 = colors.white
 	vim.g.terminal_color_8 = colors.selection
 	vim.g.terminal_color_9 = colors.bright_red
+	vim.g.terminal_color_10 = colors.bright_green
 	vim.g.terminal_color_11 = colors.bright_yellow
 	vim.g.terminal_color_12 = colors.bright_blue
 	vim.g.terminal_color_13 = colors.bright_magenta
@@ -56,6 +57,8 @@ M.apply_term_colors = function(colors)
 end
 
 M.apply = function()
+
+    local isItalic = vim.g.dracula_italic_comment == true
 
 	local highlight = function(group, fg, bg, attr, sp)
 		fg = fg and "guifg=" .. fg or "guifg=NONE"
@@ -75,7 +78,7 @@ M.apply = function()
 		highlight("Normal", colors.fg, colors.bg, nil, nil)
 	end
 	highlight("NormalFloat", colors.fg, colors.bg, nil, nil)
-	highlight("Comment", colors.comment, nil, nil, nil)
+	highlight("Comment", colors.comment, nil, isItalic and 'italic' or nil, nil)
 	highlight("Constant", colors.yellow, nil, nil, nil)
 	highlight("String", colors.yellow, nil, nil, nil)
 	highlight("Character", colors.green, nil, nil, nil)
@@ -376,6 +379,11 @@ M.apply = function()
 	-- Nvim compe
 	highlight("CmpItemAbbrDeprecated", colors.white, colors.menu, 'none', nil)
 	highlight("CmpItemAbbrMatch", colors.cyan, colors.menu, 'none', nil)
+
+    --barbar
+	highlight("BufferCurrentTarget", colors.red, nil, 'none', nil)
+	highlight("BufferVisibleTarget", colors.red, nil, 'none', nil)
+	highlight("BufferInactiveTarget", colors.red, nil, 'none', nil)
 
 	-- Link highlights
 	vim.api.nvim_command('highlight link CompeDocumentation Pmenu')

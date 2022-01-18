@@ -1,5 +1,5 @@
 " set leader key
-let g:mapleader = "\<Space>"
+" let g:mapleader = \"\<Space>"
 
 "syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
@@ -34,14 +34,22 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set number                              " Number line "
-set numberwidth=2                       " Number distance"
 " set relativenumber                    " Relative number line
+set numberwidth=2                       " Number distance"
 set autochdir                           " Your working directory will always be the same as your working directory"
 set nohlsearch
 set ignorecase
 
+" let g:coc_start_at_startup = v:false
 
-au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
+function! CocToggle()
+    if g:coc_enabled
+        CocDisable
+    else
+        CocEnable
+    endif
+endfunction
+command! CocToggle :call CocToggle()
 
 " You can't stop me
 cmap w!! w !sudo tee %

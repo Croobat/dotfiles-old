@@ -1,1 +1,3 @@
-2022/01/12-22:32:08.535 61f09 Reusing MANIFEST /home/tony/.config/balena-etcher-electron/Local Storage/leveldb/MANIFEST-000001
+2022/01/12-22:32:46.694 61faa Reusing MANIFEST /home/tony/.config/balena-etcher-electron/Local Storage/leveldb/MANIFEST-000001
+2022/01/12-22:32:46.695 61faa Recovering log #3
+2022/01/12-22:32:46.695 61faa Reusing old log /home/tony/.config/balena-etcher-electron/Local Storage/leveldb/000003.log 
