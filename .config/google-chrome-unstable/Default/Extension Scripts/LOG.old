@@ -1,2 +1,3 @@
-2022/01/11-15:10:32.614 15fd9 Creating DB /home/tony/.config/google-chrome-unstable/Default/Extension Scripts since it was missing.
-2022/01/11-15:10:32.874 15fd9 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Extension Scripts/MANIFEST-000001
+2022/01/19-14:40:43.297 340d Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Extension Scripts/MANIFEST-000001
+2022/01/19-14:40:43.406 340d Recovering log #3
+2022/01/19-14:40:43.407 340d Reusing old log /home/tony/.config/google-chrome-unstable/Default/Extension Scripts/000003.log 

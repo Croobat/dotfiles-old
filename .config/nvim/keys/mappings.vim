@@ -39,7 +39,7 @@ nnoremap <C-l> <C-w>l
 
 " Folding
 nnoremap , za
-nnoremap 'm o<esc>I## {{{<CR><CR>}}}<esc>kkI##  <esc>i
+nnoremap 'm o<esc>I## {{{<CR><tab><CR>}}}<esc>kkI##  <esc>i
 
 """Leader keys"""
 " Close buffer
@@ -63,5 +63,5 @@ nnoremap <leader>h        :History<CR>
 nnoremap <leader>c        :ColorizerToggle<CR>
 
 " insert line
-nnoremap <enter> o<esc>k
-nnoremap <A-enter> O<esc>j
+nnoremap <enter> o<esc>
+nnoremap <A-enter> O<esc>

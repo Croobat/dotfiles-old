@@ -22,6 +22,7 @@ c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?q={}',
                        #                       'aur': 'https://aur.archlinux.org/packages/?O=0&K={}',
                        'aur': 'https://archlinux.org/packages/?sort=&q={}',
                        'red': 'https://www.reddit.com/r/{}',
+                       'pex': 'https://www.pexels.com/search/{}',
                        'wiki': 'https://en.wikipedia.org/wiki/{}'}
 
 c.completion.web_history.exclude = [

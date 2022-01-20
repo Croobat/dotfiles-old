@@ -1,3 +1,6 @@
-2022/01/18-10:36:46.076 8df Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
-2022/01/18-10:36:46.080 8df Recovering log #10
-2022/01/18-10:36:46.081 8df Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000010.log 
+2022/01/19-12:14:28.577 15a8 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
+2022/01/19-12:14:28.999 15a8 Recovering log #13
+2022/01/19-12:14:29.058 15a8 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000013.log 
+2022/01/19-14:49:32.631 38c8 Level-0 table #17: started
+2022/01/19-14:49:32.752 38c8 Level-0 table #17: 10859 bytes OK
+2022/01/19-14:49:33.314 38c8 Delete type=0 #13

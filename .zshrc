@@ -137,8 +137,8 @@ alias getkey="$HOME/.scripts/getkey"
 alias history="less +G ~/.zsh_history"
 alias t="trash"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias findpacman="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk \"{print \\$2}\")' | xargs -ro sudo pacman -S"
-alias findaur="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \\$2}\")\' | xargs -ro  yay -S"
+alias findar="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk \"{print \$2}\")' | xargs -ro sudo pacman -S"
+alias findaur="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")\' | xargs -ro  yay -S"
 alias tran='trans -brief :en'
 alias trad='trans -brief :es'
 

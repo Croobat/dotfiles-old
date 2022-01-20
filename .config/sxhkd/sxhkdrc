@@ -34,7 +34,12 @@ super + F2
 # Show ssh
 super + F3
     rofi -show ssh
-
+# Clipboard history
+super + c
+    rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+# Show emojis
+super + period
+   rofi -show emoji
 
 # Screenshot
 Print
@@ -97,6 +102,10 @@ super + alt + f
 #super + alt + g
 #    godot 
 
+# Joplin
+super + alt + j
+   alacritty -e joplin
+
 # Kdenlive
 super + alt + k
     kdenlive
@@ -133,3 +142,6 @@ super + alt + z
 
 # super + alt       OCUPADOS         LIBRES
 #               abcdefghiklmnopstvwz  hjqruxy
+
+# super             OCUPADOS         LIBRES
+#               rc. F1 F2 F3       abdefghijklmnopqstuvwxyz

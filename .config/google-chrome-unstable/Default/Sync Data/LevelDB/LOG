@@ -1,3 +1,6 @@
-2022/01/17-10:55:18.872 3f17 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/01/17-10:55:19.466 3f17 Recovering log #3
-2022/01/17-10:55:19.573 3f17 Reusing old log /home/tony/.config/google-chrome-unstable/Default/Sync Data/LevelDB/000003.log 
+2022/01/19-14:42:11.689 360f Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/01/19-14:42:11.697 360f Recovering log #7
+2022/01/19-14:42:11.706 360f Reusing old log /home/tony/.config/google-chrome-unstable/Default/Sync Data/LevelDB/000007.log 
+2022/01/19-15:03:39.508 3bc4 Level-0 table #11: started
+2022/01/19-15:03:39.699 3bc4 Level-0 table #11: 92284 bytes OK
+2022/01/19-15:03:39.749 3bc4 Delete type=0 #7
