@@ -431,7 +431,7 @@ awful.rules.rules = {
           "copyq",  -- Includes session name in class.
           "pinentry",
           "Msgcompose",
-          "Godot_ProjectList",
+          "pavucontrol",
         },
         class = {
           "Arandr",

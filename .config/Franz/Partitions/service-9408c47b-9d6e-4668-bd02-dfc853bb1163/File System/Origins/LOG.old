@@ -1,3 +1,3 @@
-2022/01/18-18:42:00.750 2f8 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/File System/Origins/MANIFEST-000001
-2022/01/18-18:42:01.001 2f8 Recovering log #3
-2022/01/18-18:42:01.002 2f8 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/File System/Origins/000003.log 
+2022/01/28-15:16:39.783 41df Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/File System/Origins/MANIFEST-000001
+2022/01/28-15:16:39.785 41df Recovering log #3
+2022/01/28-15:16:39.786 41df Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/File System/Origins/000003.log 

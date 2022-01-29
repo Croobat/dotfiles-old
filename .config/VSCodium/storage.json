@@ -9,6 +9,15 @@
                 "folderUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web"
             },
             {
+                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Web-Dev/Portfolio/index.html"
+            },
+            {
+                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/git-y-github/hyperblog/blogpost.html"
+            },
+            {
+                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Game%20Dev/lacking-light/.gitignore"
+            },
+            {
                 "fileUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web/index.js"
             }
         ]
@@ -60,7 +69,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/tony/Documents/Programming/Platzi/frontend-developer",
                                         "external": "file:///home/tony/Documents/Programming/Platzi/frontend-developer",
                                         "path": "/home/tony/Documents/Programming/Platzi/frontend-developer",
                                         "scheme": "file"
@@ -86,6 +94,40 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Web-Dev/Portfolio/index.html",
+                                        "path": "/home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Web-Dev/Portfolio/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Web-Dev/Portfolio/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/git-y-github/hyperblog/blogpost.html",
+                                        "path": "/home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/git-y-github/hyperblog/blogpost.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/git-y-github/hyperblog/blogpost.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Game%20Dev/lacking-light/.gitignore",
+                                        "path": "/home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Game Dev/lacking-light/.gitignore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Game Dev/lacking-light/.gitignore"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web/index.js",
                                         "path": "/home/tony/Documents/Programming/Platzi/Web/Mi primer web/index.js",
                                         "scheme": "file"
                                     },
@@ -129,11 +171,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
@@ -209,15 +253,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
-                    },
-                    {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -254,6 +296,22 @@
                         "label": "&&Copy"
                     },
                     {
+                        "id": "submenuitem.24",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "issue.copyGithubPermalink",
+                                    "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "issue.copyMarkdownGithubPermalink",
+                                    "label": "Copy GitHub Permalink as Markdown"
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "id": "editor.action.clipboardPasteAction",
                         "label": "&&Paste"
                     },
@@ -262,11 +320,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -413,8 +473,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -590,7 +649,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -939,7 +998,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1130,11 +1190,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1521,21 +1576,20 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/tony/Documents/Programming/Platzi/frontend-developer",
-            "backupPath": "/home/tony/.config/VSCodium/Backups/ca9df7ee955f1111a8594cd8fb50678c",
+            "backupPath": "/home/tony/.config/VSCodium/Backups/1642801925899",
             "uiState": {
-                "mode": 1,
-                "x": 1610,
-                "y": 36,
-                "width": 1039,
-                "height": 1034
+                "mode": 0,
+                "x": 2567,
+                "y": 560,
+                "width": 943,
+                "height": 510
             }
         },
         "openedWindows": []

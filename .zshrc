@@ -141,6 +141,7 @@ alias findar="pacman -Slq | fzf -m --preview 'cat <(pacman -Si {1}) <(pacman -Fl
 alias findaur="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | awk \"{print \$2}\")\' | xargs -ro  yay -S"
 alias tran='trans -brief :en'
 alias trad='trans -brief :es'
+alias gslog='git slog'
 
 # App aliases
 alias vim="nvim"

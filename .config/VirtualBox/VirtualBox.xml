@@ -11,8 +11,8 @@
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
       <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="n=GLOBAL"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1601,22,1918,1057,max"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="635,1282"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="1604,30,1912,1046,max"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="633,1278"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
     </ExtraData>

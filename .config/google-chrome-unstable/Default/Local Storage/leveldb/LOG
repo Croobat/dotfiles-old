@@ -1,6 +1,3 @@
-2022/01/19-14:42:11.670 3 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
-2022/01/19-14:42:11.678 3 Recovering log #4
-2022/01/19-14:42:11.683 3 Reusing old log /home/tony/.config/google-chrome-unstable/Default/Local Storage/leveldb/000004.log 
-2022/01/19-14:44:06.942 3 Level-0 table #8: started
-2022/01/19-14:44:07.099 3 Level-0 table #8: 14206 bytes OK
-2022/01/19-14:44:07.210 3 Delete type=0 #4
+2022/01/20-13:57:23.796 5 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Local Storage/leveldb/MANIFEST-000001
+2022/01/20-13:57:27.318 5 Recovering log #7
+2022/01/20-13:57:28.152 5 Reusing old log /home/tony/.config/google-chrome-unstable/Default/Local Storage/leveldb/000007.log 

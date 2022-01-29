@@ -26,7 +26,7 @@ super + alt + p
 super + r
     rofi -show drun
 # Show windows
-super + F1
+alt + Tab
     rofi -show window
 # Show commands
 super + F2
@@ -34,6 +34,9 @@ super + F2
 # Show ssh
 super + F3
     rofi -show ssh
+# Rofi beats
+XF86Tools
+    alacritty -e ./.scripts/rofi-beats
 # Clipboard history
 super + c
     rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
@@ -53,7 +56,7 @@ XF86Mail
    thunderbird
 
 # Htop
-control + shift + Escape 
+control + shift + Escape
     alacritty -e htop
 
 # Volume control
@@ -63,20 +66,24 @@ super + control + shift + v
     alacritty -e pulsemixer
 
 # Help
-super + question 
+super + question
     /home/tony/.scripts/help-keybindings.sh
+
+# Kill
+control + alt + x
+    xkill
 
 ### Apps ###
 ## App packs
 # (Art) Asep | Blen | Ink | Kri | Tcty
 super + alt + a ; {a, b, i, k, t}
-    {aseprite, blender, inkscape, krita, tenacity} 
+    {aseprite, blender, inkscape, krita, tenacity}
 
 # (IDEs) Cod | Gen | Net | Pyc | VSC
 super + alt + i ; {c, g, n, p, v}
     {codeblocks, geany, netbeans, pycharm, vscodium}
 
-# (Misc) Calibre | Cheese 
+# (Misc) Calibre | Cheese
 super + alt + m ; {c,p}
     {calibre,cheese}
 
@@ -95,16 +102,12 @@ super + alt + d
     discord
 
 # FreeCAD
-super + alt + f 
+super + alt + f
     freecad
 
 # Godot
 #super + alt + g
-#    godot 
-
-# Joplin
-super + alt + j
-   alacritty -e joplin
+#    godot
 
 # Kdenlive
 super + alt + k

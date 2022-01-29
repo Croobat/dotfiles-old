@@ -1,5 +1,5 @@
-2022/01/19-14:42:12.260 3 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
-2022/01/19-14:42:12.627 3 Recovering log #3
-2022/01/19-14:42:12.694 3 (ignoring error) /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log: dropping 9073 bytes; Corruption: checksum mismatch
-2022/01/19-14:42:12.696 3 (ignoring error) /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log: dropping 187 bytes; Corruption: missing start of fragmented record(2)
-2022/01/19-14:42:12.697 3 Reusing old log /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log 
+2022/01/20-13:57:28.735 3 Reusing MANIFEST /home/tony/.config/google-chrome-unstable/Default/Session Storage/MANIFEST-000001
+2022/01/20-13:57:28.980 3 Recovering log #3
+2022/01/20-13:57:29.274 3 (ignoring error) /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log: dropping 9073 bytes; Corruption: checksum mismatch
+2022/01/20-13:57:29.311 3 (ignoring error) /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log: dropping 187 bytes; Corruption: missing start of fragmented record(2)
+2022/01/20-13:57:29.378 3 Reusing old log /home/tony/.config/google-chrome-unstable/Default/Session Storage/000003.log 

@@ -4,6 +4,7 @@ setxkbmap -layout us -variant altgr-intl
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 xinput set-prop 'Logitech G203 LIGHTSYNC Gaming Mouse' 'libinput Accel Speed' -0.5
+xset s 3600 3600
 
 export BROWSER=qutebrowser
 

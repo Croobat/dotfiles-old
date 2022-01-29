@@ -28,7 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Ranger FM
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
-    
+
     " Sayonara (close buffers)
     Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
 
