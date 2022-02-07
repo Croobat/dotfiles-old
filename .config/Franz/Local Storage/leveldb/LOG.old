@@ -1,3 +1,3 @@
-2022/01/28-15:16:34.122 41f0 Reusing MANIFEST /home/tony/.config/Franz/Local Storage/leveldb/MANIFEST-000001
-2022/01/28-15:16:34.123 41f0 Recovering log #3
-2022/01/28-15:16:34.124 41f0 Reusing old log /home/tony/.config/Franz/Local Storage/leveldb/000003.log 
+2022/02/06-16:44:46.313 8579 Reusing MANIFEST /home/tony/.config/Franz/Local Storage/leveldb/MANIFEST-000001
+2022/02/06-16:44:46.345 8579 Recovering log #3
+2022/02/06-16:44:46.357 8579 Reusing old log /home/tony/.config/Franz/Local Storage/leveldb/000003.log 

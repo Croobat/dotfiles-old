@@ -1,3 +1,3 @@
-2022/01/29-12:22:15.225 43e1 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/MANIFEST-000001
-2022/01/29-12:22:15.280 43e1 Recovering log #3
-2022/01/29-12:22:15.281 43e1 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/000003.log 
+2022/02/06-18:56:12.051 3cd Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/MANIFEST-000001
+2022/02/06-18:56:12.053 3cd Recovering log #3
+2022/02/06-18:56:12.079 3cd Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Service Worker/Database/000003.log 

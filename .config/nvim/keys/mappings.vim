@@ -14,6 +14,10 @@ nnoremap <M-l>    :vertical resize -2<CR>
 inoremap jk <Esc>
 inoremap zx <Esc>
 
+" Fix multiline segments
+nnoremap j gj
+nnoremap k gk
+
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back

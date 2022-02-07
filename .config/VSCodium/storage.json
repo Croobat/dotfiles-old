@@ -1,27 +1,5 @@
 {
     "telemetry.machineId": "b25bd3f64368a9dd013abfd0b321cd8fc4cda4781a0afe7d40b30a93ae5100fa",
-    "openedPathsList": {
-        "entries": [
-            {
-                "folderUri": "file:///home/tony/Documents/Programming/Platzi/frontend-developer"
-            },
-            {
-                "folderUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web"
-            },
-            {
-                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Web-Dev/Portfolio/index.html"
-            },
-            {
-                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/git-y-github/hyperblog/blogpost.html"
-            },
-            {
-                "fileUri": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Game%20Dev/lacking-light/.gitignore"
-            },
-            {
-                "fileUri": "file:///home/tony/Documents/Programming/Platzi/Web/Mi%20primer%20web/index.js"
-            }
-        ]
-    },
     "lastKnownMenubarData": {
         "menus": {
             "File": {
@@ -31,12 +9,12 @@
                         "label": "&&New File"
                     },
                     {
-                        "id": "workbench.action.newWindow",
-                        "label": "New &&Window"
-                    },
-                    {
                         "id": "welcome.showNewFileEntries",
                         "label": "New File..."
+                    },
+                    {
+                        "id": "workbench.action.newWindow",
+                        "label": "New &&Window"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -54,16 +32,73 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.31",
+                        "id": "submenuitem.32",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico/practicas",
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS%20pr%C3%A1ctico/practicas",
+                                        "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico/practicas",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/HTML y CSS práctico/practicas"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS/practicas",
+                                        "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS/practicas",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/HTML y CSS/practicas"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS/ResponsiveDesign",
+                                        "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS/ResponsiveDesign",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/HTML y CSS/ResponsiveDesign"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/HTML-CSS",
+                                        "path": "/home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/HTML-CSS",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/HTML-CSS"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/frontend-developer-practico",
+                                        "path": "/home/tony/Documents/Programming/Platzi/frontend-developer-practico",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/frontend-developer-practico"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -89,6 +124,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS/practicas/index.html",
+                                        "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS/practicas/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/HTML y CSS/practicas/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -171,18 +217,15 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -192,7 +235,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.30",
+                        "id": "submenuitem.31",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -253,13 +296,15 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -320,13 +365,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -473,7 +516,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -487,13 +531,11 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
-                                    "id": "workbench.action.toggleEditorVisibility",
-                                    "label": "Show &&Editor Area",
-                                    "checked": true
+                                    "id": "workbench.action.toggleAuxiliaryBar",
+                                    "label": "Show Si&&de Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -503,12 +545,29 @@
                                     "label": "&&Move Side Bar Right"
                                 },
                                 {
-                                    "id": "workbench.action.positionPanelLeft",
-                                    "label": "Move Panel Left"
-                                },
-                                {
-                                    "id": "workbench.action.positionPanelRight",
-                                    "label": "Move Panel Right"
+                                    "id": "submenuitem.30",
+                                    "label": "Align Panel",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.alignPanelCenter",
+                                                "label": "Center",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelJustify",
+                                                "label": "Justify"
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelLeft",
+                                                "label": "Left"
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelRight",
+                                                "label": "Right"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -649,7 +708,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -692,7 +751,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.33",
+                        "id": "submenuitem.34",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -741,7 +800,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.34",
+                        "id": "submenuitem.35",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -998,8 +1057,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1136,13 +1194,13 @@
                 "label": "Ctrl+N",
                 "userSettingsLabel": "ctrl+n"
             },
-            "workbench.action.newWindow": {
-                "label": "Ctrl+Shift+N",
-                "userSettingsLabel": "ctrl+shift+n"
-            },
             "welcome.showNewFileEntries": {
                 "label": "Ctrl+Alt+Super+N",
                 "userSettingsLabel": "ctrl+alt+meta+n"
+            },
+            "workbench.action.newWindow": {
+                "label": "Ctrl+Shift+N",
+                "userSettingsLabel": "ctrl+shift+n"
             },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O",
@@ -1190,6 +1248,11 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
+            },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1576,23 +1639,24 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 259,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/tony/.config/VSCodium/Backups/1642801925899",
+            "folder": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS%20pr%C3%A1ctico/practicas",
+            "backupPath": "/home/tony/.config/VSCodium/Backups/d385fb26d3cae840126b6ddab05c282e",
             "uiState": {
-                "mode": 0,
-                "x": 2567,
-                "y": 560,
-                "width": 943,
-                "height": 510
+                "mode": 1,
+                "x": 1610,
+                "y": 36,
+                "width": 1231,
+                "height": 1034
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/tony/Documents/Programming/Platzi"
+    "pickerWorkingDir": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico"
 }

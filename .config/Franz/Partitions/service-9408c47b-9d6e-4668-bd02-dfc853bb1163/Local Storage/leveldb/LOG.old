@@ -1,15 +1,6 @@
-2022/01/28-15:16:36.838 41ef Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
-2022/01/28-15:16:36.932 41ef Recovering log #28
-2022/01/28-15:16:36.967 41ef Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000028.log 
-2022/01/28-15:26:38.489 4396 Level-0 table #32: started
-2022/01/28-15:26:38.766 4396 Level-0 table #32: 11295 bytes OK
-2022/01/28-15:26:38.874 4396 Delete type=0 #28
-2022/01/28-15:26:38.951 4396 Compacting 4@0 + 1@1 files
-2022/01/28-15:26:39.073 4396 Generated table #33@0: 41 keys, 3870 bytes
-2022/01/28-15:26:39.074 4396 Compacted 4@0 + 1@1 files => 3870 bytes
-2022/01/28-15:26:39.148 4396 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/01/28-15:26:39.150 4396 Delete type=2 #21
-2022/01/28-15:26:39.150 4396 Delete type=2 #24
-2022/01/28-15:26:39.150 4396 Delete type=2 #27
-2022/01/28-15:26:39.151 4396 Delete type=2 #29
-2022/01/28-15:26:39.151 4396 Delete type=2 #32
+2022/02/06-16:44:49.005 8577 Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
+2022/02/06-16:44:49.045 8577 Recovering log #46
+2022/02/06-16:44:49.107 8577 Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000046.log 
+2022/02/06-17:00:50.725 856a Level-0 table #50: started
+2022/02/06-17:00:50.904 856a Level-0 table #50: 9756 bytes OK
+2022/02/06-17:00:50.951 856a Delete type=0 #46
