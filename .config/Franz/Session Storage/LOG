@@ -1,4 +1,4 @@
-2022/02/06-18:56:05.068 392 Reusing MANIFEST /home/tony/.config/Franz/Session Storage/MANIFEST-000001
-2022/02/06-18:56:05.069 392 Recovering log #3
-2022/02/06-18:56:05.086 392 (ignoring error) /home/tony/.config/Franz/Session Storage/000003.log: dropping 444 bytes; Corruption: checksum mismatch
-2022/02/06-18:56:05.113 392 Reusing old log /home/tony/.config/Franz/Session Storage/000003.log 
+2022/02/08-10:02:05.478 347 Reusing MANIFEST /home/tony/.config/Franz/Session Storage/MANIFEST-000001
+2022/02/08-10:02:05.478 347 Recovering log #3
+2022/02/08-10:02:05.487 347 (ignoring error) /home/tony/.config/Franz/Session Storage/000003.log: dropping 634 bytes; Corruption: checksum mismatch
+2022/02/08-10:02:05.487 347 Reusing old log /home/tony/.config/Franz/Session Storage/000003.log 

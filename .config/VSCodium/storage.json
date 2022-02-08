@@ -48,7 +48,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico/practicas",
+                                        "fsPath": "/home/tony/Documents/Programming/Platzi/Javascript/practicas",
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/Javascript/practicas",
+                                        "path": "/home/tony/Documents/Programming/Platzi/Javascript/practicas",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/Javascript/practicas"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS%20pr%C3%A1ctico/practicas",
                                         "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico/practicas",
                                         "scheme": "file"
@@ -225,7 +236,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -339,22 +351,6 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
-                    },
-                    {
-                        "id": "submenuitem.24",
-                        "label": "Copy As",
-                        "submenu": {
-                            "items": [
-                                {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                }
-                            ]
-                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -1639,24 +1635,24 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 259,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS%20pr%C3%A1ctico/practicas",
-            "backupPath": "/home/tony/.config/VSCodium/Backups/d385fb26d3cae840126b6ddab05c282e",
+            "folder": "file:///home/tony/Documents/Programming/Platzi/Javascript/practicas",
+            "backupPath": "/home/tony/.config/VSCodium/Backups/542c7ebb8dedccbbe065d55dc9c8015a",
             "uiState": {
                 "mode": 1,
                 "x": 1610,
                 "y": 36,
-                "width": 1231,
+                "width": 1900,
                 "height": 1034
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico"
+    "pickerWorkingDir": "/home/tony/Documents/Programming/Platzi/Javascript"
 }
