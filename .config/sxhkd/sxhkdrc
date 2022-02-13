@@ -41,7 +41,7 @@ XF86Tools
 super + c
     rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 # Show emojis
-super + period
+super + slash
    rofi -show emoji
 
 # Screenshot
@@ -141,7 +141,7 @@ super + alt + v
 ## Webapps
 # Whatsapp
 super + alt + z
-    franz
+    whatsapp-nativefier
 
 # super + alt       OCUPADOS         LIBRES
 #               abcdefghiklmnopstvwz  hjqruxy

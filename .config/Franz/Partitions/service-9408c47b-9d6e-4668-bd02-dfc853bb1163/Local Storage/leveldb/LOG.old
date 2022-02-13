@@ -1,6 +1,15 @@
-2022/02/07-16:33:03.014 467c Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
-2022/02/07-16:33:03.095 467c Recovering log #49
-2022/02/07-16:33:03.133 467c Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000049.log 
-2022/02/07-19:13:04.332 4cca Level-0 table #53: started
-2022/02/07-19:13:04.459 4cca Level-0 table #53: 10804 bytes OK
-2022/02/07-19:13:04.530 4cca Delete type=0 #49
+2022/02/11-10:11:01.099 3df Reusing MANIFEST /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/MANIFEST-000001
+2022/02/11-10:11:03.443 3df Recovering log #65
+2022/02/11-10:11:03.910 3df Reusing old log /home/tony/.config/Franz/Partitions/service-9408c47b-9d6e-4668-bd02-dfc853bb1163/Local Storage/leveldb/000065.log 
+2022/02/11-13:34:29.459 1a45 Level-0 table #69: started
+2022/02/11-13:34:29.551 1a45 Level-0 table #69: 11166 bytes OK
+2022/02/11-13:34:29.629 1a45 Delete type=0 #65
+2022/02/11-13:34:29.629 1a45 Compacting 4@0 + 1@1 files
+2022/02/11-13:34:29.747 1a45 Generated table #70@0: 68 keys, 6170 bytes
+2022/02/11-13:34:29.748 1a45 Compacted 4@0 + 1@1 files => 6170 bytes
+2022/02/11-13:34:29.831 1a45 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/02/11-13:34:29.833 1a45 Delete type=2 #57
+2022/02/11-13:34:29.833 1a45 Delete type=2 #60
+2022/02/11-13:34:29.833 1a45 Delete type=2 #63
+2022/02/11-13:34:29.834 1a45 Delete type=2 #66
+2022/02/11-13:34:29.834 1a45 Delete type=2 #69
