@@ -1,3 +1,10 @@
+""""""""""""""""""""""
+"  General sets  "
+""""""""""""""""""""""
+
+" set leader key
+let g:mapleader = "\<Space>"
+
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 " set nowrap                              " Display long lines as just one line
@@ -27,7 +34,7 @@ set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set cursorline                          " Enable highlighting of the current line
 set updatetime=300                      " Faster completion
-set timeoutlen=500                      " By default timeoutlen is 1000 ms
+set timeoutlen=5000                     " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set number                              " Number line "
@@ -37,25 +44,13 @@ set autochdir                           " Your working directory will always be 
 set nohlsearch                          " Disable highlighting in search"
 set ignorecase                          " Case insensitive search"
 set foldmethod=marker                   " Marker fold method {{{}}}"
+set formatoptions-=cro                  " Disable auto comment in new line"
+set signcolumn=yes                      " Enable column next to line number"
 
-" let g:coc_start_at_startup = v:false
+""""""""""""""""""""""
+"  Color scheme mod  "
+""""""""""""""""""""""
 
-function! CocToggle()
-    if g:coc_enabled
-        CocDisable
-    else
-        CocEnable
-    endif
-endfunction
-command! CocToggle :call CocToggle()
-
-" You can't stop me
-cmap w!! w !sudo tee %
-
-" Tags file
-command! MakeTags !ctags -R .
-
-"Color scheme
 colorscheme dracula
 highlight LineNr guifg=#d8e17e
 highlight Comment guifg=#8696da

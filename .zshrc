@@ -74,7 +74,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 plugins=(
     git
     archlinux
-    # zsh-autosuggestions
+    zsh-autosuggestions
     zsh-history-substring-search
     you-should-use
     auto-notify
@@ -156,6 +156,10 @@ alias sn="sncli"
 alias binds="sxhkd"
 alias bm="bashmount"
 alias scim="sc-im"
+alias todo="topydo add"
+alias todid="topydo do"
+alias todos="topydo ls"
+alias td="topydo"
 
 # conf aliases
 alias zconf="vim ~/.zshrc"
