@@ -8,5 +8,11 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/signature.vim
+source $HOME/.config/nvim/plug-config/coc-snippets.vim
+source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/signify.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/quickscope.vim
+source $HOME/.config/nvim/keys/which-key.vim
 
 source $HOME/.config/nvim/autorun.vim

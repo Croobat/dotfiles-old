@@ -74,7 +74,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 plugins=(
     git
     archlinux
-    zsh-autosuggestions
+    # zsh-autosuggestions
     zsh-history-substring-search
     you-should-use
     auto-notify
@@ -143,6 +143,7 @@ alias findaur="yay -Slq | fzf -m --preview 'cat <(yay -Si {1}) <(yay -Fl {1} | a
 alias tran='trans -brief :en'
 alias trad='trans -brief :es'
 alias gslog='git slog'
+alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
 
 # App aliases
 alias vim="nvim"

@@ -136,3 +136,4 @@ text_editor/highlighting/gdscript/function_definition_color = Color( 0.4, 0.9, 1
 text_editor/highlighting/gdscript/node_path_color = Color( 0.39, 0.76, 0.35, 1 )
 text_editor/help/sort_functions_alphabetically = true
 projects/::home::tony::Documents::Programming::Game-Dev::lacking-light::source = "/home/tony/Documents/Programming/Game-Dev/lacking-light/source"
+projects/::home::tony::Documents::Programming::Game-Dev::farm-defense::source = "/home/tony/Documents/Programming/Game-Dev/farm-defense/source"

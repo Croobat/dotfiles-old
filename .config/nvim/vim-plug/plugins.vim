@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+
     " Ranger FM
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
@@ -47,5 +48,24 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Visible marks
     Plug 'kshenoy/vim-signature'
 
-call plug#end()
+    " Snippets
+    Plug 'honza/vim-snippets'
+
+    " Startify (project manager vim)
+    Plug 'mhinz/vim-startify'
+
+    " Git integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+
+    " Better navigation
+    Plug 'justinmk/vim-sneak'
+    Plug 'unblevable/quick-scope'
+
+    " Which key
+    Plug 'liuchengxu/vim-which-key'
+
+    call plug#end()
 

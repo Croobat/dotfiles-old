@@ -1,5 +1,10 @@
 nnoremap <space> <nop>
 
+" Disable Ex mode
+map q: <Nop>
+nnoremap Q <nop>
+nnoremap Q gqq
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -51,7 +56,7 @@ nnoremap 'm <esc>I## {{{<CR>  <backspace><CR>}}}<esc>kkI##  <esc>i
 nnoremap <leader>q :Sayonara<CR>
 
 " Coc
-nnoremap <leader>coc :CocToggle<CR>
+nnoremap <leader>c :CocToggle<CR>
 
 " Fzf
 nnoremap <leader><leader> :Rg<CR>
@@ -70,4 +75,14 @@ nnoremap <leader>h        :History<CR>
 " insert line
 nnoremap <enter> o<esc>
 nnoremap <A-enter> O<esc>
+" Word wrap
+nnoremap <A-z> :set wrap!<CR>
 
+" Snippets
+nnoremap !html :-1read $HOME/.config/nvim/snippets/skeleton.html<CR>6jwf>a
+
+" Faster scrolling
+nnoremap <c-j> 5j
+nnoremap <c-k> 5k
+xnoremap <c-j> 5j
+xnoremap <c-k> 5k

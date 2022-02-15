@@ -24,3 +24,9 @@ done &
 
 # DWM loop
  exec /home/tony/.scripts/startdwm
+
+# Swap Escap and caps lock
+setxkbmap -option caps:swapescape
+
+# faster keyboard
+xset r rate 200 40
