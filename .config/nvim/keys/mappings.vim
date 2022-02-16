@@ -12,10 +12,10 @@ nnoremap Q <nop>
 nnoremap Q gqq
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize +2<CR>
-nnoremap <M-l>    :vertical resize -2<CR>
+nnoremap <M-J>    :resize -2<CR>
+nnoremap <M-K>    :resize +2<CR>
+nnoremap <M-H>    :vertical resize +2<CR>
+nnoremap <M-L>    :vertical resize -2<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
@@ -39,10 +39,10 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Better window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <M-h> <C-w>h
+nnoremap <M-j> <C-w>j
+nnoremap <M-k> <C-w>k
+nnoremap <M-l> <C-w>l
 
 " Folding
 nnoremap , za

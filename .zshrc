@@ -73,6 +73,7 @@ ZSH_THEME="xiong-chiamiov-plus"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    autoupdate
     archlinux
     zsh-autosuggestions
     zsh-history-substring-search
@@ -116,6 +117,20 @@ ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff79c6'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Codi
+codi() {
+   local syntax="${1:-python}"
+   shift
+   nvim -c \
+     "let g:startify_disable_at_vimenter = 1 |\
+     set bt=nofile ls=0 noru nonu nornu |\
+     hi CodiVirtualText guifg=#568c64
+     hi ColorColumn ctermbg=NONE |\
+     hi VertSplit ctermbg=NONE |\
+     hi NonText ctermfg=0 |\
+     Codi $syntax" "$@"
+}
+
 ###             ALIASES             ###
 ## Modified commands
 alias diff='colordiff'
@@ -147,6 +162,7 @@ alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
 
 # App aliases
 alias vim="nvim"
+alias vi="nvim -u NONE"
 alias code="vscodium"
 alias spt="ncspot"
 alias mail="neomutt"
@@ -171,6 +187,7 @@ alias piconf="vim ~/.config/picom/picom.conf"
 alias alaconf="vim ~/.config/alacritty/alacritty.yml"
 alias bindsconf="vim ~/.config/sxhkd/sxhkdrc"
 alias quteconf="vim ~/.config/qutebrowser/config.py"
+alias qutemarks="vim ~/.config/qutebrowser/quickmarks"
 alias qutequick="vim ~/.config/qutebrowser/quickmarks"
 alias profile="vim ~/.xprofile"
 alias vimconf="cd ~/.config/nvim"

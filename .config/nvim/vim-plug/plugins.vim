@@ -31,6 +31,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " code runner
     Plug 'xianzhon/vim-code-runner'
 
+    " Realtime coding
+    Plug 'metakirby5/codi.vim'
+
+    " Arduino
+    Plug 'stevearc/vim-arduino'
 
     """"""""""""""""""""""
     "    Syntax/typing   "
@@ -50,12 +55,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Surround with ({""})
     Plug 'tpope/vim-surround'
 
+    " Prettier post install (yarn install | npm install) then load plugin only for editing supported files
+    Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 
     """"""""""""""""""""""
     "     Navigation     "
     """"""""""""""""""""""
     " More target operators
-    Plug 'wellle/targets.vim'
+    " Plug 'wellle/targets.vim'
+    Plug 'wellle/targets.vim', {'on' : []}
+    augroup LoadDuringHold_Targets
+        autocmd!
+        autocmd CursorHold,CursorHoldI * call plug#load('targets.vim') | autocmd! LoadDuringHold_Targets
+    augroup end
 
     " Visible marks
     Plug 'kshenoy/vim-signature'
@@ -66,12 +78,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better t and f
     Plug 'unblevable/quick-scope'
 
+    " Focus (like qutebrowser)
+    Plug 'easymotion/vim-easymotion'
 
     """"""""""""""""""""""
     "   File navigation  "
     """"""""""""""""""""""
-     " File Explorer
-    Plug 'scrooloose/NERDTree'
+    " File Explorer
+    " Plug 'scrooloose/NERDTree'
 
     " Ranger FM
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
@@ -108,8 +122,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "   Aesthetics/QOL   "
     """"""""""""""""""""""
     " Status bar
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
+     "Plug 'vim-airline/vim-airline'
+     "Plug 'vim-airline/vim-airline-themes'
+    Plug 'nvim-lualine/lualine.nvim'
+    " If you want to have icons in your statusline choose one of these
+    Plug 'kyazdani42/nvim-web-devicons'
 
     " Colors
     Plug 'norcalli/nvim-colorizer.lua'
@@ -124,6 +141,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " neovim sudo privileges (:Sudawrite :Sudaread)
     Plug 'lambdalisue/suda.vim'
 
+    " Show indent lines
+    Plug 'Yggdroot/indentLine'
+
+    " Add repeat dot with some plugins
+    Plug 'tpope/vim-repeat'
+
+    " Startup TB
+    Plug 'tweekmonster/startuptime.vim'
 
     """
     call plug#end()

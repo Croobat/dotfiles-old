@@ -34,7 +34,7 @@ set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
 set cursorline                          " Enable highlighting of the current line
 set updatetime=300                      " Faster completion
-set timeoutlen=5000                     " By default timeoutlen is 1000 ms
+set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set number                              " Number line "
@@ -44,8 +44,12 @@ set autochdir                           " Your working directory will always be 
 set nohlsearch                          " Disable highlighting in search"
 set ignorecase                          " Case insensitive search"
 set foldmethod=marker                   " Marker fold method {{{}}}"
-set formatoptions-=cro                  " Disable auto comment in new line"
 set signcolumn=yes                      " Enable column next to line number"
+set list lcs=tab:\|\                    " Indent line for tabs"
+
+
+" Disable auto comment in new line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 """"""""""""""""""""""
 "  Color scheme mod  "
