@@ -61,3 +61,6 @@ nnoremap <c-j> 5j
 nnoremap <c-k> 5k
 xnoremap <c-j> 5j
 xnoremap <c-k> 5k
+
+" Better pasting
+nnoremap <c-p> pg;h

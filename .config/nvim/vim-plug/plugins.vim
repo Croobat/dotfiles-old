@@ -45,6 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Nerd commenter
     Plug 'preservim/nerdcommenter'
+    Plug 'tpope/vim-commentary'
 
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
@@ -57,6 +58,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Prettier post install (yarn install | npm install) then load plugin only for editing supported files
     Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+
+    " Replace with register (griw)
+    Plug 'vim-scripts/ReplaceWithRegister'
+
+    " Sort motion
+    Plug 'christoomey/vim-sort-motion'
+
+    " Titlecase
+    Plug 'christoomey/vim-titlecase'
+
 
     """"""""""""""""""""""
     "     Navigation     "
@@ -88,7 +99,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'scrooloose/NERDTree'
 
     " Ranger FM
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
     " Sayonara (close buffers)
     Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
@@ -116,6 +127,25 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Browse commits (:GV! :GV? :GV)
     Plug 'junegunn/gv.vim'
+
+
+    """"""""""""""""""""""
+    "      Objects       "
+    """"""""""""""""""""""
+    " Needed for kana text objects
+    Plug 'kana/vim-textobj-user'
+
+    " Intend (ai, ii)
+    Plug 'michaeljsmith/vim-indent-object'
+
+    " Entire file (ae, ie)
+    Plug 'kana/vim-textobj-entire'
+
+    " Significant line object
+    Plug 'kana/vim-textobj-line'
+
+    " Ruby block (ends with end)
+    Plug 'nelstrom/vim-textobj-rubyblock'
 
 
     """"""""""""""""""""""
@@ -148,7 +178,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-repeat'
 
     " Startup TB
-    Plug 'tweekmonster/startuptime.vim'
+    " Plug 'tweekmonster/startuptime.vim'
 
     """
     call plug#end()
