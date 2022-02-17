@@ -233,7 +233,7 @@ alias rm='rm -I'                    # 'rm -i' prompts for every file
 alias rmr='rm -rfI'
 
 # safer alternative w/ timeout, not stored in history
-alias rm=' timeout 3 rm -Iv --one-file-system'
+# alias rm=' timeout 3 rm -Iv --one-file-system'
 alias ln='ln -i'
 alias chown='chown --preserve-root'
 alias chx='chmod --preserve-root u+x'

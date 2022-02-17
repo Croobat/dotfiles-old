@@ -1,4 +1,0 @@
-2022/02/11-10:10:55.548 3fe Reusing MANIFEST /home/tony/.config/Franz/Session Storage/MANIFEST-000001
-2022/02/11-10:10:55.669 3fe Recovering log #3
-2022/02/11-10:10:55.692 3fe (ignoring error) /home/tony/.config/Franz/Session Storage/000003.log: dropping 1185 bytes; Corruption: checksum mismatch
-2022/02/11-10:10:55.706 3fe Reusing old log /home/tony/.config/Franz/Session Storage/000003.log 
