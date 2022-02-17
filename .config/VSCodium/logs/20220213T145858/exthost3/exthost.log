@@ -1,0 +1,21 @@
+[2022-02-13 15:00:55.795] [exthost] [info] Extension host with pid 3093 started
+[2022-02-13 15:00:55.795] [exthost] [info] Skipping acquiring lock for /home/tony/.config/VSCodium/User/workspaceStorage/1f32ca92b8c1339071bf5f872bb54029.
+[2022-02-13 15:00:55.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-02-13 15:00:55.862] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.873] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.893] [exthost] [info] ExtensionService#_doActivateExtension johnpapa.vscode-peacock, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.897] [exthost] [info] ExtensionService#_doActivateExtension LaurentTreguier.vscode-simple-icons, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.899] [exthost] [info] ExtensionService#_doActivateExtension pucelle.vscode-css-navigation, startup: true, activationEvent: '*'
+[2022-02-13 15:00:55.940] [exthost] [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+[2022-02-13 15:00:56.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-02-13 15:00:56.033] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.vscode-pull-request-github
+[2022-02-13 15:00:56.981] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-02-13 15:00:57.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-02-13 15:00:57.513] [exthost] [info] Eager extensions activated
+[2022-02-13 15:00:57.664] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-13 15:00:57.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-13 15:00:57.744] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-13 15:00:58.303] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-13 15:04:32.052] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-02-13 15:04:32.082] [exthost] [info] Extension host with pid 3093 exiting with code 0

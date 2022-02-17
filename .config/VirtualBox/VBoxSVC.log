@@ -1,0 +1,46 @@
+00:00:00.029285 main     VirtualBox XPCOM Server 6.1.32 r149290 linux.amd64 (Jan 18 2022 20:32:19) release log
+00:00:00.029288 main     Log opened 2022-01-21T16:26:23.992527000Z
+00:00:00.029288 main     Build Type: release
+00:00:00.029290 main     OS Product: Linux
+00:00:00.029291 main     OS Release: 5.15.15-1-lts
+00:00:00.029292 main     OS Version: #1 SMP Sun, 16 Jan 2022 09:28:22 +0000
+00:00:00.029312 main     DMI Product Name: B250M-DS3H
+00:00:00.029317 main     DMI Product Version: Default string
+00:00:00.029322 main     Firmware type: BIOS
+00:00:00.029344 main     Host RAM: 15890MB (15.5GB) total, 13195MB (12.8GB) available
+00:00:00.029346 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.029347 main     Process ID: 12606
+00:00:00.029347 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.032579 main     IPC socket path: /tmp/.vbox-tony-ipc/ipcd
+00:00:00.145648 nspr-2   VirtualBox: object creation starts
+00:00:00.145833 nspr-2   Home directory: '/home/tony/.config/VirtualBox'
+00:00:00.165812 nspr-2   Loading settings file "/home/tony/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.186558 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link status for wlp0s20f0u6: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.187191 nspr-2   HostDnsMonitor: initializing
+00:00:00.212208 nspr-2   NAT: resolv.conf: nameserver 187.244.54.129
+00:00:00.212307 nspr-2   NAT: resolv.conf: nameserver 189.194.28.50
+00:00:00.212355 nspr-2   NAT: resolv.conf: nameserver 189.198.130.3
+00:00:00.212399 nspr-2   HostDnsMonitor: updating information
+00:00:00.212450 nspr-2   HostDnsMonitor: old information
+00:00:00.212485 nspr-2     no server entries
+00:00:00.212518 nspr-2     no domain set
+00:00:00.212550 nspr-2     no search string entries
+00:00:00.212584 nspr-2   HostDnsMonitor: new information
+00:00:00.212615 nspr-2     server 1: 187.244.54.129
+00:00:00.212647 nspr-2     server 2: 189.194.28.50
+00:00:00.212678 nspr-2     server 3: 189.198.130.3
+00:00:00.212747 nspr-2     no domain set
+00:00:00.212784 nspr-2     no search string entries
+00:00:00.232213 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.233117 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.234041 nspr-2   VirtualBox: object created
+00:00:11.180201 nspr-2   Saving settings file "/home/tony/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:11.586444 nspr-3   Saving settings file "/home/tony/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:11.899800 nspr-3   Saving settings file "/home/tony/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:12.196568 nspr-3   Saving settings file "/home/tony/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:18.000617 main     VirtualBox: object deletion starts
+00:00:18.000866 main     HostDnsMonitor: shutting down ...
+00:00:18.014868 main     HostDnsMonitor: shut down
+00:00:18.236476 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:23.015047 main     {00007fa7140176d0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:23.015234 main     VirtualBox: object deleted

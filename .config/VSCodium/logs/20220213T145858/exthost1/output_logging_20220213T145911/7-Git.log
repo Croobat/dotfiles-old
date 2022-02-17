@@ -1,0 +1,11 @@
+[2022-02-13T20:59:16.234Z] Validating found git in: git
+[2022-02-13T20:59:16.373Z] Using git 2.35.1 from git
+[2022-02-13T20:59:16.700Z] > git rev-parse --git-dir [94ms]
+[2022-02-13T20:59:16.714Z] Open repository: /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/ECMAScript/practicas
+[2022-02-13T20:59:17.343Z] > git symbolic-ref --short HEAD [30ms]
+[2022-02-13T20:59:17.479Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [100ms]
+[2022-02-13T20:59:17.584Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+[2022-02-13T20:59:17.602Z] > git ls-files --stage -- /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/ECMAScript/practicas/src/es6/04-clases-modulos-generadores.js [124ms]
+[2022-02-13T20:59:17.722Z] > git remote --verbose [139ms]
+[2022-02-13T20:59:18.367Z] > git config --local branch.main.github-pr-owner-number [165ms]
+[2022-02-13T20:59:18.459Z] > git config --get commit.template [305ms]

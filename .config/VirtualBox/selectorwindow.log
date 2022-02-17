@@ -1,0 +1,18 @@
+00:00:00.674528 VirtualBox GUI VM Selector Window 6.1.32 r149290 linux.amd64 (Jan 18 2022 20:32:19) release log
+00:00:00.674530 Log opened 2022-01-21T16:26:24.321508000Z
+00:00:00.674530 Build Type: release
+00:00:00.674533 OS Product: Linux
+00:00:00.674534 OS Release: 5.15.15-1-lts
+00:00:00.674535 OS Version: #1 SMP Sun, 16 Jan 2022 09:28:22 +0000
+00:00:00.674562 DMI Product Name: B250M-DS3H
+00:00:00.674568 DMI Product Version: Default string
+00:00:00.674574 Firmware type: BIOS
+00:00:00.674602 Host RAM: 15890MB (15.5GB) total, 13193MB (12.8GB) available
+00:00:00.674605 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.674605 Process ID: 12583
+00:00:00.674605 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.674715 Qt version: 5.15.2
+00:00:00.687962 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.688029 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.360832 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1600x26 x 1912x1046
+00:00:01.360955 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1600x26 x 1912x1046

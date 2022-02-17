@@ -1,0 +1,17 @@
+rfc|rfc|snippets
+asdfsdf|asdflksadjf|around
+html|html5|snippets
+box|box|snippets
+Coc|CocToggle|vimlsp
+coc|coc-init|around
+Nerd|NERDCommenterToggle|around
+Nerd|NERDCommenterInvert|around
+endfunction|endfunction|vimlsp
+boci|b:hi_indent.blocktagind|vimlsp
+lua|lualine.vim|file
+END|$FZF_DEFAULT_COMMAND|vimlsp
+lua|lualine.lua|file
+|lualine.lua|file
+air|airline.vim|file
+plu|plug-config|file
+packe|packer.lua|file

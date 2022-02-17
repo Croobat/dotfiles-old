@@ -1,0 +1,8 @@
+set editor = "nvim"
+
+# vim: filetype=neomuttrc
+source /usr/share/mutt-wizard/mutt-wizard.muttrc
+source /home/tony/.config/mutt/accounts/1-tonyram9906@outlook.com.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/tony/.config/mutt/accounts/1-tonyram9906@outlook.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to tonyram9906@outlook.com"
+macro index,pager i2 '<sync-mailbox><enter-command>source /home/tony/.config/mutt/accounts/2-tonyram9906@gmail.com.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to tonyram9906@gmail.com"
+macro index,pager i3 '<sync-mailbox><enter-command>source /home/tony/.config/mutt/accounts/3-lramirezg1708@alumno.ipn.mx.muttrc<enter><change-folder>!<enter>;<check-stats>' "switch to lramirezg1708@alumno.ipn.mx"

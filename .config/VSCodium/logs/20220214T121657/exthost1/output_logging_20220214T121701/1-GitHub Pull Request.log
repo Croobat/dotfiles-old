@@ -1,0 +1,22 @@
+[Info] /home/tony/.ssh/config: ENOENT: no such file or directory, open '/home/tony/.ssh/config'
+[Info] Registering git provider
+[Info] Looking for git repository
+[Info] Found 0 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Repository file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/Front%20End%20Developer%20pr%C3%A1ctico/game-store has been opened
+[Info] Review> Validate state in progress
+[Info] Review> Validating state...
+[Info] Cannot updates repositories as git is uninitialized
+[Info] Review> Queuing additional validate state
+[Info] Repo state for file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/Front%20End%20Developer%20pr%C3%A1ctico/game-store changed.
+[Info] Repo file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/Front%20End%20Developer%20pr%C3%A1ctico/game-store has already been setup.
+[Info] Git initialization state changed: state=initialized
+[Info] Review> Queuing additional validate state
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main
+[Info] Review> Validating state...
+[Info] Found GitHub remote
+[Info] Review> no matching pull request metadata found for current branch main
+[Info] Review> no matching pull request metadata found on GitHub for current branch main

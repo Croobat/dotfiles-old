@@ -1,0 +1,11 @@
+[2022-02-14T15:07:17.514Z] Validating found git in: git
+[2022-02-14T15:07:17.741Z] Using git 2.35.1 from git
+[2022-02-14T15:07:18.110Z] > git rev-parse --git-dir [11ms]
+[2022-02-14T15:07:18.132Z] Open repository: /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/ECMAScript/practicas
+[2022-02-14T15:07:18.183Z] > git symbolic-ref --short HEAD [3ms]
+[2022-02-14T15:07:18.195Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [8ms]
+[2022-02-14T15:07:18.262Z] > git remote --verbose [55ms]
+[2022-02-14T15:07:18.390Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [187ms]
+[2022-02-14T15:07:18.608Z] > git config --get commit.template [197ms]
+[2022-02-14T15:07:18.676Z] > git config --local branch.main.github-pr-owner-number [75ms]
+[2022-02-14T15:07:18.695Z] > git config --local branch.main.github-pr-owner-number [2ms]

@@ -1,0 +1,9 @@
+0ee627c74185e9d030d7f2151a4df6ab
+::res://::1642178277
+bullet.png::StreamTexture::1642137577::1642137578::1::::<><>::
+bullets.gd::GDScript::1642137577::0::1::::<>Node2D<>::res://bullet.png
+face_happy.png::StreamTexture::1642137577::1642137578::1::::<><>::
+face_sad.png::StreamTexture::1642137577::1642137578::1::::<><>::
+icon.png::StreamTexture::1642137577::1642137578::1::::<><>::
+player.gd::GDScript::1642137577::0::1::::<>Node2D<>::
+shower.tscn::PackedScene::1642137581::0::1::::<><>::res://bullets.gd<>res://face_happy.png<>res://face_sad.png<>res://player.gd
