@@ -1,0 +1,8 @@
+.config/discord/*
+.config/VSCodium/Cache*
+.config/Franz/*
+.config/unity3d/*
+.config/Microsoft/*
+.config/google-chrome-unstable/*
+.config/whatsapp-nativefier-d40211/*
+.config/coc/extensions/node_modules/coc-tsserver/*
