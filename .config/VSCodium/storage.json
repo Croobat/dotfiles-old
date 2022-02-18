@@ -810,7 +810,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1122,8 +1123,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1716,10 +1716,10 @@
             "backupPath": "/home/tony/.config/VSCodium/Backups/b16d64eab7eb2f8a826c0668e77b997a",
             "uiState": {
                 "mode": 1,
-                "x": 1604,
-                "y": 23,
-                "width": 1912,
-                "height": 1053
+                "x": 1603,
+                "y": 22,
+                "width": 1914,
+                "height": 1055
             }
         },
         "openedWindows": []

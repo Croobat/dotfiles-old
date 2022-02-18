@@ -145,7 +145,7 @@ alias dmesg='dmesg -HL'
 alias pacinn="sudo pacman -S --needed"
 alias yainn="yay -S --needed"
 alias yainch="yay -S --mflags \"--skipchecksums --skippgpcheck\""
-alias installed="pacman -Qqe > .pkglist.txt ; less .pkglist.txt"
+alias installed="pacman -Qqet > .pkglist.txt ; less .pkglist.txt"
 alias app="AppImageLauncher ~/Applications/appimage-cli-tool-0.1.4-x86_64.AppImage"
 alias awtest="killall Xephyr; Xephyr :5 & sleep 1 ; DISPLAY=:5 awesome"
 alias getkey="$HOME/.scripts/getkey"
@@ -159,6 +159,7 @@ alias tran='trans -brief :en'
 alias trad='trans -brief :es'
 alias gslog='git slog'
 alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
+alias installed-packages='pacman -Qqe > .pkglist.txt'
 
 # App aliases
 alias vim="nvim"
@@ -176,6 +177,7 @@ alias todo="topydo add"
 alias todid="topydo do"
 alias todos="topydo ls"
 alias td="topydo"
+alias 2048="2048 bluered"
 
 # conf aliases
 alias zconf="vim ~/.zshrc"
@@ -194,6 +196,7 @@ alias vimconf="cd ~/.config/nvim"
 
 # location aliases
 alias desk="cd /usr/share/applications"
+alias platzi="cd ~/Documents/Programming/Platzi"
 
 # Printer aliases
 alias escanear="scanimage --format=png --output-file scan.png --progress"
