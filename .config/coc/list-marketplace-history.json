@@ -2,5 +2,9 @@
   "L2hvbWUvdG9ueS9PbmVEcml2ZSAtIEluc3RpdHV0byBQb2xpdGVjbmljbyBOYWNpb25hbC9Eb2N1bWVudHMvUHJvZ3JhbW1pbmcvUGxhdHppL0VDTUFTY3JpcHQvcHJhY3RpY2Fz": [
     "perl",
     "js"
+  ],
+  "L2hvbWUvdG9ueQ==": [
+    "jedi",
+    "tss"
   ]
 }

@@ -10,6 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="xiong-chiamiov-plus"
+# ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -196,7 +197,7 @@ alias vimconf="cd ~/.config/nvim"
 
 # location aliases
 alias desk="cd /usr/share/applications"
-alias platzi="cd ~/Documents/Programming/Platzi"
+alias platzi="cd ~/Dev/Platzi"
 
 # Printer aliases
 alias escanear="scanimage --format=png --output-file scan.png --progress"

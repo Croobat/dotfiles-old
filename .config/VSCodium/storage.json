@@ -48,18 +48,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/tony/Documents/Programming/Platzi/Front End Developer práctico/game-store",
-                                        "external": "file:///home/tony/Documents/Programming/Platzi/Front%20End%20Developer%20pr%C3%A1ctico/game-store",
-                                        "path": "/home/tony/Documents/Programming/Platzi/Front End Developer práctico/game-store",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Programming/Platzi/Front End Developer práctico/game-store"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/tony/Documents/Programming/Platzi/ECMAScript/practicas/src/es7",
                                         "path": "/home/tony/Documents/Programming/Platzi/ECMAScript/practicas/src/es7",
                                         "scheme": "file"
@@ -154,6 +142,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Programming/Platzi/Javascript/practicas"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/tony/Documents/Programming/Platzi/HTML%20y%20CSS%20pr%C3%A1ctico/practicas",
+                                        "path": "/home/tony/Documents/Programming/Platzi/HTML y CSS práctico/practicas",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Programming/Platzi/HTML y CSS práctico/practicas"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -347,10 +346,6 @@
                         "label": "&&Close Editor"
                     },
                     {
-                        "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
-                    },
-                    {
                         "id": "workbench.action.closeWindow",
                         "label": "Clos&&e Window"
                     },
@@ -383,22 +378,6 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
-                    },
-                    {
-                        "id": "submenuitem.24",
-                        "label": "Copy As",
-                        "submenu": {
-                            "items": [
-                                {
-                                    "id": "issue.copyGithubPermalink",
-                                    "label": "Copy GitHub Permalink"
-                                },
-                                {
-                                    "id": "issue.copyMarkdownGithubPermalink",
-                                    "label": "Copy GitHub Permalink as Markdown"
-                                }
-                            ]
-                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -677,13 +656,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -773,7 +745,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -1123,7 +1095,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1281,10 +1254,6 @@
                 "label": "Ctrl+Shift+T",
                 "userSettingsLabel": "ctrl+shift+t"
             },
-            "workbench.action.openRecent": {
-                "label": "Ctrl+R",
-                "userSettingsLabel": "ctrl+r"
-            },
             "workbench.action.files.save": {
                 "label": "Ctrl+S",
                 "userSettingsLabel": "ctrl+s"
@@ -1314,11 +1283,6 @@
             "workbench.action.closeActiveEditor": {
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
-            },
-            "workbench.action.closeFolder": {
-                "label": "Ctrl+K F",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
@@ -1457,11 +1421,6 @@
                 "label": "Ctrl+NumPad0",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
-            },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
@@ -1712,14 +1671,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/tony/Documents/Programming/Platzi/Front%20End%20Developer%20pr%C3%A1ctico/game-store",
-            "backupPath": "/home/tony/.config/VSCodium/Backups/b16d64eab7eb2f8a826c0668e77b997a",
+            "backupPath": "/home/tony/.config/VSCodium/Backups/1645403397042",
             "uiState": {
                 "mode": 1,
-                "x": 1603,
-                "y": 22,
-                "width": 1914,
-                "height": 1055
+                "x": 2567,
+                "y": 26,
+                "width": 946,
+                "height": 1047
             }
         },
         "openedWindows": []

@@ -2,15 +2,16 @@
   "dependencies": {
     "coc-clangd": ">=0.20.1",
     "coc-css": ">=1.3.0",
-    "coc-explorer": ">=0.20.2",
+    "coc-explorer": ">=0.22.6",
     "coc-git": ">=2.4.7",
+    "coc-jedi": ">=0.30.1",
     "coc-json": ">=1.4.1",
     "coc-lua": ">=1.0.1",
     "coc-marketplace": ">=1.8.1",
     "coc-perl": ">=1.1.0",
     "coc-python": ">=1.2.13",
-    "coc-snippets": ">=2.4.7",
-    "coc-tsserver": ">=1.9.6",
+    "coc-snippets": ">=2.4.8",
+    "coc-tsserver": ">=1.9.12",
     "coc-vimlsp": ">=0.12.5",
     "coc-webview": ">=0.10.1"
   }
