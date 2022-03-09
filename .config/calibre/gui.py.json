@@ -46,10 +46,12 @@
   ],
   "jobs_search_history": [],
   "lrf_viewer_search_history": [],
-  "main_search_history": [],
+  "main_search_history": [
+    "femin"
+  ],
   "main_window_geometry": {
     "__class__": "bytearray",
-    "__value__": "AdnQywADAAAAAAoDAAAAIAAADbkAAAQxAAAKBwAAACQAAA21AAAELQAAAAAAAAAAB4AAAAoHAAAAJAAADbUAAAQt"
+    "__value__": "AdnQywADAAAAAAZEAAAAFwAACf8AAAQzAAAGRwAAABoAAAn8AAAEMAAAAAAAAAAAB4AAAAZHAAAAGgAACfwAAAQw"
   },
   "match_tags_type": "any",
   "new_version_notification": true,

@@ -147,9 +147,27 @@
 /home/tony/Music/Naruto/Shippuden Endings/15 _ U Can Do It.mp3
 /home/tony/Music/Psycho Pass/1) Namae no nai kaibutsu.mp3
 /home/tony/Music/Suzumiya Haruhi no Yūutsu/God Knows.mp3
+/home/tony/Music/Eve/Dark Night.mp3
+/home/tony/Music/Eve/Demon Dance Tokyo.mp3
+/home/tony/Music/Eve/Dramaturgy.mp3
+/home/tony/Music/Eve/Heart Forecast.mp3
+/home/tony/Music/Eve/How to Eat Life.mp3
+/home/tony/Music/Eve/Last Dance.mp3
+/home/tony/Music/Eve/Snow.mp3
+/home/tony/Music/Eve/The Secret About That Girl.mp3
+/home/tony/Music/Eve/This World to You.mp3
+/home/tony/Music/Eve/Tokyo Ghetto.mp3
+/home/tony/Music/Eve/Umiyuri Kaitei Tan Utattemita.mp3
+/home/tony/Music/Eve/Wakusei Loop.mp3
 /home/tony/Music/Eve/Kaikai Kitan.mp3
 /home/tony/Music/Jujutsu Kaisen/Kaikai Kitan.mp3
 /home/tony/Music/Eve/Furiwoshita - Eve.mp3
+/home/tony/Music/Eve/Dream Lantern (cover).mp3
+/home/tony/Music/Eve/Rain and Petra (cover).mp3
+/home/tony/Music/Eve/ROKI (cover).mp3
+/home/tony/Music/Eve/Sparkle (cover).mp3
+/home/tony/Music/Eve/Suna no Wakusei (cover).mp3
+/home/tony/Music/Eve/This Fucked Up Beautiful World Exists for Me Sang it (cover).mp3
 /home/tony/Music/Eve/As you like it - Eve.mp3
 /home/tony/Music/Eve/Mabel (cover) - Eve.mp3
 /home/tony/Music/Eve/Just life (cover) - Eve.mp3
@@ -215,6 +233,7 @@
 /home/tony/Music/Otros/Hikaru Nara!!.mp3
 /home/tony/Music/Naruto/Shippuden Endings/07 _ Long Kiss Good Bye.mp3
 /home/tony/Music/Otros/Mysterious Original.mp3
+/home/tony/Music/Otros/Tenbyou no Uta.mp3
 /home/tony/Music/Otros/Renaisaiban Love Trial.mp3
 /home/tony/Music/OST/Haikyuu!! Original Soundtrack Vol.1/02. Haikyu!!.mp3
 /home/tony/Music/OST/Haikyuu!! Original Soundtrack Vol.1/07. Henjin Sokkou.mp3
@@ -257,6 +276,8 @@
 /home/tony/Music/Otros/Mōsō Express.mp3
 /home/tony/Music/Steins;Gate/Fatima.mp3
 /home/tony/Music/Kenichi/Be Strong - Kana Yazumi.mp3
+/home/tony/Music/Otros/MORE.mp3
+/home/tony/Music/Otros/POP STARS.mp3
 /home/tony/Music/Bleach/8) CHU-BURA.mp3
 /home/tony/Music/Hunter X Hunter/Oyahou.mp3
 /home/tony/Music/Kenshi Yonezu/Eine Kleine.mp3
@@ -316,6 +337,7 @@
 /home/tony/Music/Otros/Wonder - Mega Shinnosuke.mp3
 /home/tony/Music/Otros/Red fraction.mp3
 /home/tony/Music/Kill la Kill/Before my body is dry.mp3
+/home/tony/Music/Otros/Suna no Wakusei.mp3
 /home/tony/Music/Otros/Kawaki wo Ameku.mp3
 /home/tony/Music/Kyoukai no Kanata/Kyoukai no Kanata.mp3
 /home/tony/Music/Otros/Penguin's Detour.mp3

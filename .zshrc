@@ -200,7 +200,7 @@ alias desk="cd /usr/share/applications"
 alias platzi="cd ~/Dev/Platzi"
 
 # Printer aliases
-alias escanear="scanimage --format=png --output-file scan.png --progress"
+alias escanear="scanimage --format=png --output-file ~/Downloads/scan.png --progress"
 alias scan="simple-scan"
 
 ## New commands
@@ -250,3 +250,7 @@ alias :q=' exit'
 alias :Q=' exit'
 alias :x=' exit'
 alias cd..='cd ..'
+
+
+## Vi mode
+bindkey -v

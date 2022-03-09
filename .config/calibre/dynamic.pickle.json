@@ -1,6 +1,24 @@
 {
+  "add books dialog dir": "/home/tony/Documents/Books/EPUB",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
   "database location dialog": "/home/tony/Documents/Miscelaneous/Books/Calibre",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.38"
+    ]
+  },
+  "recursive book import root dir dialog": "/home/tony/Documents/Books/EPUB",
+  "save to disk dialog": "/home/tony/Downloads",
   "sort_history": [
+    [
+      "title",
+      true
+    ],
     [
       "timestamp",
       false
