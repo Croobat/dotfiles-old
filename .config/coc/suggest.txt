@@ -1,3 +1,5 @@
+raf|raf|snippets
+ir|ir|snippets
 box|box|snippets
 4x10|4x10|around
 box|bbox|snippets
@@ -9,7 +11,6 @@ logo_yar|logo_yard_sale.svg|file
 use|@use|css
 import|importScripts|tsserver-javascript
 Rec|RecoveryPassword|tsserver-javascript
-raf|raf|snippets
 r|raf|snippets
 r|re|snippets
 Login|Login|tsserver-javascript
