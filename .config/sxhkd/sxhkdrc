@@ -73,6 +73,22 @@ super + question
 control + alt + x
     xkill
 
+### Music player ###
+XF86AudioPlay
+    playerctl play-pause
+XF86AudioStop
+    playerctl stop
+XF86AudioPrev
+    playerctl previous
+XF86AudioNext
+    playerctl next
+XF86AudioLowerVolume
+    playerctl volume .05-
+XF86AudioRaiseVolume
+    playerctl volume .05+
+XF86AudioMute
+    playerctl volume 1-
+
 ### Apps ###
 ## App packs
 # (Art) Asep | Blen | Ink | Kri | Tcty

@@ -9,8 +9,8 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="xiong-chiamiov-plus"
 # ZSH_THEME="random"
+ZSH_THEME="xiong-chiamiov-plus"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -83,7 +83,12 @@ plugins=(
     zsh-syntax-highlighting
     )
 
-    # Auto notify plugin
+######################
+# USER CONFIGURATION #
+######################
+
+
+# Auto notify plugin
 zstyle ':notify:*' blacklist-regex 'find|rofi|sncli|zathura|ranger|joplin'
 zstyle ':notify:*' command-complete-timeout 180
 zstyle ':notify:*' error-log /dev/null
@@ -98,10 +103,6 @@ source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
 
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff79c6'
-
-
-
-# User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -132,7 +133,82 @@ codi() {
      Codi $syntax" "$@"
 }
 
-###             ALIASES             ###
+
+## Vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+# Change cursor shape for different vi modes.
+function zle-keymap-select {
+  if [[ ${KEYMAP} == vicmd ]] ||
+     [[ $1 = 'block' ]]; then
+    echo -ne '\e[3 q'
+  elif [[ ${KEYMAP} == main ]] ||
+       [[ ${KEYMAP} == viins ]] ||
+       [[ ${KEYMAP} = '' ]] ||
+       [[ $1 = 'beam' ]]; then
+    echo -ne '\e[1 q'
+  fi
+}
+zle -N zle-keymap-select
+zle-line-init() {
+    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    echo -ne "\e[1 q"
+}
+zle -N zle-line-init
+echo -ne '\e[5 q' # Use beam shape cursor on startup.
+preexec() { echo -ne '\e[1 q' ;} # Use beam shape cursor for each new prompt.
+
+## Up navigation function
+up () {
+    local d=""
+    local limit="$1"
+
+    # Default to limit of 1
+    if [ -z "$limit" ] || [ "$limit" -le 0 ]; then
+        limit=1
+    fi
+
+    for ((i=1;i<=limit;i++)); do
+        d="../$d"
+    done
+
+    # perform cd. Show errors if cd fails
+    if ! cd "$d"; then
+        echo "Couldn't go up $limit dirs.";
+    fi
+}
+
+######################
+#      ALIASES       #
+######################
+
+## Basic aliases
+# ls
+alias ls='ls -hF --color=auto'
+alias lr='ls -R'                    # recursive ls
+alias ll='ls -l'
+alias la='ll -A'
+alias lx='ll -BX'                   # sort by extension
+alias lz='ll -rS'                   # sort by size
+alias lt='ll -rt'                   # sort by date
+alias lm='la | more'
+
+# Safety features
+alias rm='rm -I'                    # 'rm -i' prompts for every file
+alias rmr='rm -rfI'
+
+# safer alternative w/ timeout, not stored in history
+# alias rm=' timeout 3 rm -Iv --one-file-system'
+alias ln='ln -i'
+alias chown='chown --preserve-root'
+alias chx='chmod --preserve-root u+x'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+alias cls=' echo -ne "\033c"'       # clear screen for real (it does not work in Terminology)
+
+
+
 ## Modified commands
 alias diff='colordiff'
 alias grep='grep --color=auto'
@@ -162,6 +238,8 @@ alias gslog='git slog'
 alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
 alias installed-packages='pacman -Qqe > .pkglist.txt'
 
+
+
 # App aliases
 alias vim="nvim"
 alias vi="nvim -u NONE"
@@ -180,6 +258,7 @@ alias todos="topydo ls"
 alias td="topydo"
 alias 2048="2048 bluered"
 
+
 # conf aliases
 alias zconf="vim ~/.zshrc"
 alias awconf="vim ~/.config/awesome/rc.lua"
@@ -194,6 +273,7 @@ alias qutemarks="vim ~/.config/qutebrowser/quickmarks"
 alias qutequick="vim ~/.config/qutebrowser/quickmarks"
 alias profile="vim ~/.xprofile"
 alias vimconf="cd ~/.config/nvim"
+
 
 # location aliases
 alias desk="cd /usr/share/applications"
@@ -222,35 +302,19 @@ alias netctl='sudo netctl'
 alias nethogs='sudo nethogs'
 alias updatedb='sudo updatedb --verbose'
 
-## ls
-alias ls='ls -hF --color=auto'
-alias lr='ls -R'                    # recursive ls
-alias ll='ls -l'
-alias la='ll -A'
-alias lx='ll -BX'                   # sort by extension
-alias lz='ll -rS'                   # sort by size
-alias lt='ll -rt'                   # sort by date
-alias lm='la | more'
-
-## Safety features
-alias rm='rm -I'                    # 'rm -i' prompts for every file
-alias rmr='rm -rfI'
-
-# safer alternative w/ timeout, not stored in history
-# alias rm=' timeout 3 rm -Iv --one-file-system'
-alias ln='ln -i'
-alias chown='chown --preserve-root'
-alias chx='chmod --preserve-root u+x'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
-alias cls=' echo -ne "\033c"'       # clear screen for real (it does not work in Terminology)
-
 ## Make Bash error tolerant
 alias :q=' exit'
 alias :Q=' exit'
 alias :x=' exit'
 alias cd..='cd ..'
 
+## Media
+alias playwav='mpv *.wav'
+alias playogg='mpv *.ogg'
+alias playmp3='mpv *.mp3'
 
-## Vi mode
-bindkey -v
+alias playavi='vlc *.avi'
+alias playmov='vlc *.mov'
+alias playmp4='vlc *.mp4'
+alias playflv='vlc *.flv'
+alias playmkv='vlc *.mkv'
