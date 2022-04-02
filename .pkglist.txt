@@ -2,6 +2,7 @@
 alacritty
 alsa-utils
 android-file-transfer
+android-sdk
 appimagelauncher
 arc-kde
 arc-solid-gtk-theme
@@ -13,6 +14,7 @@ aseprite
 audacity
 audio-recorder
 awesome
+balena-etcher
 barrier
 base
 bashmount
@@ -31,8 +33,10 @@ codeblocks
 colordiff
 conky
 discord
+dotnet-sdk
 downgrade
 easytag
+evtest
 fd
 figlet
 firefox
@@ -54,6 +58,7 @@ gromit-mpx
 grub-customizer
 gtypist
 htop
+i2c-ch341-dkms
 inkscape
 intel-ucode
 kdenlive
@@ -90,6 +95,7 @@ pandoc
 papirus-icon-theme
 pavucontrol
 pinta
+playerctl
 pokemon-colorscripts-git
 postman-bin
 ptags
@@ -131,6 +137,7 @@ translate-shell
 unclutter
 units
 unity-editor
+universal-android-debloater
 unoconv
 vi
 vim-profiler
