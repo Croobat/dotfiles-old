@@ -134,30 +134,30 @@ codi() {
 }
 
 
-## Vi mode
-bindkey -v
-export KEYTIMEOUT=1
+## Emacs mode
+bindkey -e
+# export KEYTIMEOUT=1
 
-# Change cursor shape for different vi modes.
-function zle-keymap-select {
-  if [[ ${KEYMAP} == vicmd ]] ||
-     [[ $1 = 'block' ]]; then
-    echo -ne '\e[3 q'
-  elif [[ ${KEYMAP} == main ]] ||
-       [[ ${KEYMAP} == viins ]] ||
-       [[ ${KEYMAP} = '' ]] ||
-       [[ $1 = 'beam' ]]; then
-    echo -ne '\e[1 q'
-  fi
-}
-zle -N zle-keymap-select
-zle-line-init() {
-    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    echo -ne "\e[1 q"
-}
-zle -N zle-line-init
-echo -ne '\e[5 q' # Use beam shape cursor on startup.
-preexec() { echo -ne '\e[1 q' ;} # Use beam shape cursor for each new prompt.
+# # Change cursor shape for different vi modes.
+# function zle-keymap-select {
+#   if [[ ${KEYMAP} == vicmd ]] ||
+#      [[ $1 = 'block' ]]; then
+#     echo -ne '\e[3 q'
+#   elif [[ ${KEYMAP} == main ]] ||
+#        [[ ${KEYMAP} == viins ]] ||
+#        [[ ${KEYMAP} = '' ]] ||
+#        [[ $1 = 'beam' ]]; then
+#     echo -ne '\e[1 q'
+#   fi
+# }
+# zle -N zle-keymap-select
+# zle-line-init() {
+#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+#     echo -ne "\e[1 q"
+# }
+# zle -N zle-line-init
+# echo -ne '\e[5 q' # Use beam shape cursor on startup.
+# preexec() { echo -ne '\e[1 q' ;} # Use beam shape cursor for each new prompt.
 
 ## Up navigation function
 up () {
@@ -208,7 +208,6 @@ alias chgrp='chgrp --preserve-root'
 alias cls=' echo -ne "\033c"'       # clear screen for real (it does not work in Terminology)
 
 
-
 ## Modified commands
 alias diff='colordiff'
 alias grep='grep --color=auto'
@@ -237,6 +236,7 @@ alias trad='trans -brief :es'
 alias gslog='git slog'
 alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
 alias installed-packages='pacman -Qqe > .pkglist.txt'
+alias download-single='curl -LJO'
 
 
 
@@ -264,7 +264,6 @@ alias zconf="vim ~/.zshrc"
 alias awconf="vim ~/.config/awesome/rc.lua"
 alias dwconf="cd ~/.config/dwm"
 alias awtconf="vim ~/.config/awesome/theme.lua"
-alias atajosconf="vim ~/.config/sxhkd/sxhkdrc"
 alias piconf="vim ~/.config/picom/picom.conf"
 alias alaconf="vim ~/.config/alacritty/alacritty.yml"
 alias bindsconf="vim ~/.config/sxhkd/sxhkdrc"
@@ -278,6 +277,7 @@ alias vimconf="cd ~/.config/nvim"
 # location aliases
 alias desk="cd /usr/share/applications"
 alias platzi="cd ~/Dev/Platzi"
+alias compactadora="cd ~/Documents/UPIIZ/10º\ Semestre/Trabajo\ Terminal\ 2/interfaz-compactadora"
 
 # Printer aliases
 alias escanear="scanimage --format=png --output-file ~/Downloads/scan.png --progress"
@@ -291,7 +291,6 @@ alias pgg='ps -Af | grep'           # requires an argument
 alias ..='cd ..'
 
 # Privileged access
-alias sudo='sudo '
 alias scat='sudo cat'
 alias svim='sudo nvim'
 alias root='sudo -i'

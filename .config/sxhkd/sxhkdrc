@@ -36,7 +36,7 @@ super + F3
     rofi -show ssh
 # Rofi beats
 XF86Tools
-    alacritty -e ./.scripts/rofi-beats
+    alacritty --title rofi-beats -e ./.scripts/rofi-beats
 # Clipboard history
 super + c
     rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
@@ -111,7 +111,7 @@ super + alt + b
 
 # Cmus
 super + alt + c
-    alacritty -e cmus
+    alacritty --title cmus -e cmus
 
 # Discord
 super + alt + d
@@ -135,7 +135,7 @@ super + alt + l
 
 # Simplenote
 super + alt + n
-    alacritty -e sncli
+    alacritty --title sncli -e sncli
 
 # OBS
 super + alt + o
@@ -147,7 +147,7 @@ super + alt + o
 
 # Spotify
 super + alt + t
-    alacritty -e ncspot
+    alacritty --title ncspot -e ncspot
 
 # VLC
 super + alt + v

@@ -1,3 +1,30 @@
+prin|println|around|
+print|println|buffer|
+box|box|snippets|  
+pushlif|pushliftbutton|buffer|
+print|println|around|
+in|interfaz-compactadora|file|
+Tra|Trabajo Terminal 2|file|
+10|10º Semestre|file|
+U|UPIIZ|file|
+Doc|Documents|file|
+d|date|snippets|  
+|interfaz-compactadora|file|
+Tra|Trabajo Terminal 2|file|
+|2022-01-28 Medidas covid.mkv|file|
+|10º Semestre|file|
+Up|UPIIZ|file|
+|Documents|file|
+ip|installed-packages|around|
+|Platzi|file|
+de|Dev|file|
+box|box|snippets|  
+compareSt|compareString|around|
+print|println|around|
+print|println|around|
+pri|println|around|
+print|println|around|
+box|box|snippets|  
 aliases|aliases|around
 box|box|snippets
 1|180|around
