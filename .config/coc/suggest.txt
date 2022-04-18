@@ -1,204 +1,55 @@
-prin|println|around|
-print|println|buffer|
+E0000|E0000|around|
+dow|Downloads|file|
+D|Downloads|file|
+Dow|Downloads|file|
+isEmer|isEmergencyPressed|around|
+isEmerge|isEmergencyPressed|buffer|
+if|if|snippets|  
+isPres|isPressed|around|
+emer|emergencyButton|around|
+emer|emergencyButton|around|
+isDo|isDoorOpen|around|
+isDoo|isDoorOpen|around|
+isComp|isCompactPressed|around|
+isDo|isDoorOpen|around|
+iscom|isCompactPressed|around|
+isli|isLiftPressed|around|
+isCom|isCompactPressed|around|
+is|isCompactPressed|buffer|
+compac|compactButtonState|buffer|
+lift|liftButtonState|around|
+com|compactButtonState|around|
+comp|compactButtonState|around|
+pri|printf|snippets|  
+do|do|snippets|  
+lift|liftButtonState|around|
+compa|compactButtonState|around|
+lif|liftButtonState|around|
+comp|compactButtonState|around|
+liftB|liftButtonState|around|
+compacB|compactButtonState|buffer|
+compactButto|compactButtonState|around|
+isRe|isReleased|buffer|
+emerg|emergencyButtonState|around|
+if|if|snippets|  
+isDoo|isDoorOpen|buffer|
+isD|isDoorOpen|around|
+isDor|isDoorOpen|around|
+isDor|isDoorOpen|buffer|
 box|box|snippets|  
-pushlif|pushliftbutton|buffer|
+doo|doorSwitch|buffer|
+isDoor|isDoorOpen|buffer|
+door|doorSwitch|buffer|
+door|doorSwitch|around|
+on|onSwitch|around|
 print|println|around|
-in|interfaz-compactadora|file|
-Tra|Trabajo Terminal 2|file|
-10|10º Semestre|file|
-U|UPIIZ|file|
-Doc|Documents|file|
-d|date|snippets|  
-|interfaz-compactadora|file|
-Tra|Trabajo Terminal 2|file|
-|2022-01-28 Medidas covid.mkv|file|
-|10º Semestre|file|
-Up|UPIIZ|file|
-|Documents|file|
-ip|installed-packages|around|
-|Platzi|file|
-de|Dev|file|
+to|todo|snippets|  
+onSw|onSwitch|around|
+onSwi|onSwitch|around|
+includ|include|around|
+retu|return|buffer|
+func|func|snippets|  
 box|box|snippets|  
-compareSt|compareString|around|
-print|println|around|
-print|println|around|
-pri|println|around|
-print|println|around|
-box|box|snippets|  
-aliases|aliases|around
-box|box|snippets
-1|180|around
-function|function|around
-bbox|bbox|snippets
-if|if|snippets
-transitionHalt|transitionHaltLift|around
-transitionHal|transitionHaltCompact|around
-levantar|levantar|around
-dw|dwLow|snippets
-transitionCom|transitionCompactLift|around
-transitionFi|transitionFillExtract|around
-line|line|snippets
-set|setup|snippets
-bold|boldline|snippets
-mit|MIT|snippets
-head|head|snippets
-inc|inc|snippets
-a|AGPL|snippets
-raf|raf|snippets
-ir|ir|snippets
-4x10|4x10|around
-box|bbox|snippets
-e|date|snippets
-A|AGPL|snippets
-sil|silverbullet games-logos_black.png|file
-si|silverbullet games-logos_black.png|file
-logo_yar|logo_yard_sale.svg|file
-use|@use|css
-import|importScripts|tsserver-javascript
-Rec|RecoveryPassword|tsserver-javascript
-r|raf|snippets
-r|re|snippets
-Login|Login|tsserver-javascript
-Layo|Layout|tsserver-javascript
-import react|import react$1 from "react";|tsserver-javascript
-import React|import React$1 from "react";|tsserver-javascript
-global|global.scss|file
-bac|background-color|css
-P|GPL2|snippets
-app|app|buffer
-div|div|snippets
-html|html5|snippets
-htmlwe|html-webpack-plugin|tsserver-javascript
-resolve|resolve|tsserver-javascript
-entry|entry|tsserver-javascript
-preset|presets|json
-"presets|"presets": [$1]|json
-getEle|getElementById|tsserver-javascript
-download|downloads|around
-Down|Downloads|file
-back|background-color|css
-ind|index.html|file
-id|id|snippets
-html5|html5|snippets
-|scripts|file
-writeFi|writeFileSync|tsserver-javascript
-cl|cl|snippets
-const|const|snippets
-font-st|font-style|css
-font-weig|font-weight|css
-src|src|css
-font-fam|font-family|css
-css-|mini-css-extract-plugin|tsserver-javascript
-scri|script|snippets
-H|HtmlWebpackPlugiin|around
-loader|loader?|tsserver-javascript
-"plug|"plugins": [$1]|json
-"prese|"presets": [$1]|json
-true|true|json
-flo|floor|tsserver-javascript
-Mat|Math|tsserver-javascript
-NPM|NPM|around
-Su|Soluciona|around
-que|que|around
-paquetes|paquetes|around
-en|entorno|around
-necesario|necesario|around
-await|await|around
-son|sapicon|snippets
-another|anotherFunction|tsserver-javascript
-ce|ce|snippets
-try|try|snippets
-con|const|snippets
-ano|anotherFunction|tsserver-javascript
-doSomethingAs|doSomethingAsync|tsserver-javascript
-doSomething|doSomething|tsserver-javascript
-doSoe|doSomethingAsync|tsserver-javascript
-do|doSomethingAsync|around
-setTi|setTimeout|tsserver-javascript
-err|error|tsserver-javascript
-then|then|tsserver-javascript
-fetchData|fetchData|tsserver-javascript
-fet|fetchData|tsserver-javascript
-require|require|tsserver-javascript
-somethin|somethingWillHappen|tsserver-javascript
-some|somethingWillHappen2|tsserver-javascript
-reje|reject|tsserver-javascript
-set|setTimeout|tsserver-javascript
-if|ife|snippets
-erro|error|tsserver-javascript
-someth|somethingWillHappen|tsserver-javascript
-al|andself|snippets
-fetchD|fetchData|tsserver-javascript
-fetc|fetchData|tsserver-javascript
-let|let|snippets
-date|date|tsserver-javascript
-callback|callback|around
-calc|calc|tsserver-javascript
-sum|sum|tsserver-javascript
-function|function|tsserver-javascript
-Messa|Message|tsserver-javascript
-show|show|snippets
-repa|replacedString|tsserver-javascript
-repl|replace|tsserver-javascript
-else|else|tsserver-javascript
-promise|promise|snippets
-ano|anotherBigNumber|tsserver-javascript
-aBig|aBigNumber|tsserver-javascript
-fol|foldp|snippets
-le|lorem|snippets
-let|def(class method)|snippets
-tree|treesitter.vim|file
-stat|statusline.vim|file
-ctermf|ctermfg|vimlsp
-h|hi|vimlsp
-ssdfsdfsd|sadfsdfsdfsdfsdf|around
-def|def|snippets
-cla|class|snippets
-f|fig|snippets
-return|return|vimlsp
-languages|g:rmd_fenced_languages|vimlsp
-|index|file
-addEventListener|addEventListener|tsserver-javascript
-autocmd|autocmd|vimlsp
-getElementByi|getElementById|tsserver-javascript
-brac|bracey.vim|file
-pol|polyglot.vim|file
-o|ol|snippets
-5|h5|snippets
-emm|emmet.vim|file
-html|html|snippets
-BufEnte|BufEnter|vimlsp
-Bufe|BufEnter|vimlsp
-rf|rfc|snippets
-rfc|rfc|snippets
-btn|button.|snippets
-butt|button|snippets
-arr|array|tsserver-javascript
-matc|match|tsserver-javascript
-setTimeout|setTimeout|tsserver-javascript
-helloW|helloWorld|tsserver-javascript
-asyn|async|tsserver-javascript
-reject|reject|tsserver-javascript
-setTime|setTimeout|tsserver-javascript
-retur|return|tsserver-javascript
-st|string|tsserver-javascript
-matriz|matriz|around
-meta|meta(data)?|snippets
-dat|data|tsserver-javascript
-data|data|snippets
-mode|modeline|snippets
-exponent|exponent|tsserver-javascript
-asdfsdf|asdflksadjf|around
-Coc|CocToggle|vimlsp
-coc|coc-init|around
-Nerd|NERDCommenterToggle|around
-Nerd|NERDCommenterInvert|around
-endfunction|endfunction|vimlsp
-boci|b:hi_indent.blocktagind|vimlsp
-lua|lualine.vim|file
-END|$FZF_DEFAULT_COMMAND|vimlsp
-lua|lualine.lua|file
-|lualine.lua|file
-air|airline.vim|file
-plu|plug-config|file
-packe|packer.lua|file
+SpawnN|SpawnNewInstance|around|
+source|source|vimlsp|  
+xcv|xcv|around|

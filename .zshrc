@@ -237,6 +237,8 @@ alias gslog='git slog'
 alias dwcomp='rm ~/.config/dwm/config.h ; sudo make clean install'
 alias installed-packages='pacman -Qqe > .pkglist.txt'
 alias download-single='curl -LJO'
+alias youtube-dl-playlist-guardar="youtube-dl -x -f bestaudio --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M' --ignore-errors --continue --audio-format mp3 'https://www.youtube.com/playlist?list=PLjp-ryEOLdtOGhSXXc2-3VRoyK8uVUjF2'"
+alias youtube-dl-playlist="youtube-dl -x -f bestaudio --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M' --ignore-errors --continue --no-overwrites --audio-format mp3"
 
 
 

@@ -16,6 +16,10 @@
   "save to disk dialog": "/home/tony/Downloads",
   "sort_history": [
     [
+      "timestamp",
+      false
+    ],
+    [
       "title",
       true
     ],

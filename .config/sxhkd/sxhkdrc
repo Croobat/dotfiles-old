@@ -95,9 +95,9 @@ XF86AudioMute
 super + alt + a ; {a, b, i, k, t}
     {aseprite, blender, inkscape, krita, tenacity}
 
-# (IDEs) Cod | Gen | Net | Pyc | VSC
-super + alt + i ; {c, g, n, p, v}
-    {codeblocks, geany, netbeans, pycharm, vscodium}
+# (IDEs) Ard | Cod | Gen | Net | Pyc | VSC
+super + alt + i ; {a, c, g, n, p, v}
+    {arduino, codeblocks, geany, netbeans, pycharm, vscodium}
 
 # (Misc) Calibre | Cheese
 super + alt + m ; {c,p}

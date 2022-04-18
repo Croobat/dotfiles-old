@@ -1,8 +1,8 @@
 ﻿<settings>
   <setting name="dock-layers-minimized" type="System.Boolean">False</setting>
   <setting name="dock-history-minimized" type="System.Boolean">False</setting>
-  <setting name="window-size-width" type="System.Int32">1600</setting>
-  <setting name="window-size-height" type="System.Int32">881</setting>
+  <setting name="window-size-width" type="System.Int32">1920</setting>
+  <setting name="window-size-height" type="System.Int32">1061</setting>
   <setting name="ruler-metric" type="System.Int32">0</setting>
   <setting name="window-maximized" type="System.Boolean">False</setting>
   <setting name="ruler-shown" type="System.Boolean">False</setting>
@@ -11,14 +11,14 @@
   <setting name="statusbar-shown" type="System.Boolean">True</setting>
   <setting name="toolbox-shown" type="System.Boolean">True</setting>
   <setting name="pixel-grid-shown" type="System.Boolean">False</setting>
-  <setting name="last-dialog-directory" type="System.String">/home/tony/Pictures</setting>
-  <setting name="last-selected-tool" type="System.String">RectangleSelectTool</setting>
+  <setting name="last-dialog-directory" type="System.String">/home/tony/Downloads</setting>
+  <setting name="last-selected-tool" type="System.String">ZoomTool</setting>
   <setting name="primary-color" type="System.String">FF000000</setting>
   <setting name="secondary-color" type="System.String">FFFF7F7F</setting>
   <setting name="recently-used-colors" type="System.String">FFFF7F7F,FF000000,FFFFFFFF,FF303030,FFE5E5E5,FFE5E5E5,FFE5E5E5,FFE5E5E5,FFE5E5E5,FFE5E5E5</setting>
   <setting name="selection-combine-mode" type="System.Int32">0</setting>
-  <setting name="magicwandtool-fill-mode" type="System.Int32">0</setting>
-  <setting name="magicwandtool-fill-tolerance" type="System.Int32">0</setting>
+  <setting name="magicwandtool-fill-mode" type="System.Int32">1</setting>
+  <setting name="magicwandtool-fill-tolerance" type="System.Int32">20</setting>
   <setting name="paintbrushtool-antialias" type="System.Int32">0</setting>
   <setting name="paintbrushtool-brush-width" type="System.Int32">5</setting>
   <setting name="paint-brush-brush" type="System.Int32">0</setting>
@@ -40,8 +40,8 @@
   <setting name="rectangletool-shape-type" type="System.Int32">1</setting>
   <setting name="rectangletool-dash-pattern" type="System.String">-</setting>
   <setting name="erasertool-antialias" type="System.Int32">0</setting>
-  <setting name="erasertool-brush-width" type="System.Int32">2</setting>
-  <setting name="eraser-erase-type" type="System.Int32">0</setting>
+  <setting name="erasertool-brush-width" type="System.Int32">12</setting>
+  <setting name="eraser-erase-type" type="System.Int32">1</setting>
   <setting name="paintbuckettool-fill-mode" type="System.Int32">0</setting>
   <setting name="paintbuckettool-fill-tolerance" type="System.Int32">0</setting>
   <setting name="text-font" type="System.String">Arial Bold 16</setting>
@@ -51,4 +51,8 @@
   <setting name="text-alignment" type="System.Int32">2</setting>
   <setting name="text-style" type="System.Int32">3</setting>
   <setting name="text-outline-width" type="System.Int32">2</setting>
+  <setting name="default-image-type" type="System.String">png</setting>
+  <setting name="gradient-type" type="System.Int32">0</setting>
+  <setting name="clonestamptool-antialias" type="System.Int32">1</setting>
+  <setting name="clonestamptool-brush-width" type="System.Int32">20</setting>
 </settings>

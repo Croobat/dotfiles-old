@@ -1,3 +1,5 @@
+/home/tony/Music/Arekun/Baka (Kokyuu Version).mp3
+/home/tony/Music/Arekun/Light Up.mp3
 /home/tony/Music/Naruto/Shippuden Openings/19 _ Blood Circulator.mp3
 /home/tony/Music/Lofi/Cruels angel thesis Neon Genesis Evangelion but is it okay if its lofi hiphop.mp3
 /home/tony/Music/Lofi/Fly high Haikyuu but is it okay if its lofi.mp3
@@ -16,6 +18,9 @@
 /home/tony/Music/Otros/Sen no Tsubasa.mp3
 /home/tony/Music/One Piece/17) Wake up!.mp3
 /home/tony/Music/Soul Eater/STRENGTH.mp3
+/home/tony/Music/Ado/Furoito Meta.mp3
+/home/tony/Music/Ado/Higashi Cannibalism.mp3
+/home/tony/Music/Ado/Readymade.mp3
 /home/tony/Music/Ado/ANEMONE.mp3
 /home/tony/Music/Ado/Eat.mp3
 /home/tony/Music/Ado/Gira gira.mp3
@@ -29,6 +34,7 @@
 /home/tony/Music/Otros/Wild Side.mp3
 /home/tony/Music/Mob Psycho 100/Refrain Boy.mp3
 /home/tony/Music/Naruto/Naruto Endings/11 _ Soba ni Iru Kara.mp3
+/home/tony/Music/Boku no Hero Academia/3) Sora ni Utaeba.mp3
 /home/tony/Music/Boku no Hero Academia/Sora ni Utaeba.mp3
 /home/tony/Music/Naruto/Naruto Endings/10 _ Speed.mp3
 /home/tony/Music/Otros/Sidonia.mp3
@@ -45,6 +51,7 @@
 /home/tony/Music/Bleach/6) ALONES.mp3
 /home/tony/Music/Naruto/Shippuden Endings/16 _ Mayonaka no Orchestra.mp3
 /home/tony/Music/Neon Genesis Evangelion/Komm Süsser Tod.mp3
+/home/tony/Music/Otros/Waste collection.mp3
 /home/tony/Music/OST/Haikyu!! Second Season Original Soundtrack Vol.2/09. Asobiba.mp3
 /home/tony/Music/OST/Haikyuu!! Karasuno Koukou VS Shiratorizawa Gakuen Koukou Original Soundtrack/05. GUESS·MONSTER.mp3
 /home/tony/Music/OST/Haikyuu!! Karasuno Koukou VS Shiratorizawa Gakuen Koukou Original Soundtrack/07. The Halo Around the Moon.mp3
@@ -81,6 +88,7 @@
 /home/tony/Music/Otros/Tohoroshisuto.mp3
 /home/tony/Music/Otros/Rain.mp3
 /home/tony/Music/Otros/My time.mp3
+/home/tony/Music/Boku no Hero Academia/1) HEROES.mp3
 /home/tony/Music/Boku no Hero Academia/HEROES.mp3
 /home/tony/Music/Otros/Sunday.mp3
 /home/tony/Music/Haikyu!!/12. Phoenix.mp3
@@ -89,17 +97,27 @@
 /home/tony/Music/Gintama/1) Fuusen Gum.mp3
 /home/tony/Music/Naruto/Naruto Endings/07 _ Mountain a Go Go Two.mp3
 /home/tony/Music/Naruto/Naruto Endings/12 _ Parade.mp3
+/home/tony/Music/Haikyu!!/13. Kessen Spirit.mp3
 /home/tony/Music/Otros/Connect.mp3
 /home/tony/Music/Jojo's Bizarre Adventure/2) BLOODY STREAM.mp3
 /home/tony/Music/Instrumental/BLOODY STREAM (ORIGINAL KARAOKE).mp3
+/home/tony/Music/Covers/Angeles Fuimos - Cover.mp3
+/home/tony/Music/Covers/Angeles y Demonios - Cover.mp3
+/home/tony/Music/Covers/Cha-La Head-Cha-La - Cover.mp3
+/home/tony/Music/Covers/FLOW - CHA-LA HEAD-CHA-LA - Cover.mp3
+/home/tony/Music/Covers/Kessen Spirit - Cover.mp3
 /home/tony/Music/Covers/Ángeles y Demonios.mp3
 /home/tony/Music/Dragon Ball/Ángeles y demonios.mp3
+/home/tony/Music/Covers/CHA-LA HEAD CHA-LA (German) - Cover.mp3
 /home/tony/Music/Dragon Ball/CHA-LA HEAD CHA-LA (German).mp3
+/home/tony/Music/Covers/Day of Fate Spirit VS Spirit - Cover.mp3
 /home/tony/Music/Dragon Ball/Day of Fate Spirit VS Spirit.mp3
 /home/tony/Music/Covers/Hated by Life Itself - Cover.mp3
 /home/tony/Music/Covers/Make my story - Cover.mp3
+/home/tony/Music/Covers/Mi corazón encantado - Cover.mp3
 /home/tony/Music/Dragon Ball/Mi corazón encantado.mp3
 /home/tony/Music/Covers/Renaisaiban Love Trial - Cover.mp3
+/home/tony/Music/Covers/Si Tu Lo Deseas - Cover.mp3
 /home/tony/Music/Covers/Si Tu Lo Deseas.mp3
 /home/tony/Music/Covers/Sugar Song and Bitter Step - Cover.mp3
 /home/tony/Music/Covers/Sugar Song to Bitter Step - Cover.mp3
@@ -118,6 +136,7 @@
 /home/tony/Music/Covers/I'm a Believer - Cover.m4a
 /home/tony/Music/Covers/Kokoro No Chizu - Cover.m4a
 /home/tony/Music/Covers/Great Days - Cover.mp3
+/home/tony/Music/Covers/Baton Road - Cover - Cover.m4a
 /home/tony/Music/Covers/Baton Road - Cover.m4a
 /home/tony/Music/Covers/Datte Atashi no Hero - Cover.m4a
 /home/tony/Music/Covers/Fly High!! - Cover.m4a
@@ -147,21 +166,30 @@
 /home/tony/Music/Naruto/Shippuden Endings/15 _ U Can Do It.mp3
 /home/tony/Music/Psycho Pass/1) Namae no nai kaibutsu.mp3
 /home/tony/Music/Suzumiya Haruhi no Yūutsu/God Knows.mp3
+/home/tony/Music/Eve/Bouto.mp3
 /home/tony/Music/Eve/Dark Night.mp3
 /home/tony/Music/Eve/Demon Dance Tokyo.mp3
+/home/tony/Music/Eve/Domestic De Violence.mp3
+/home/tony/Music/Eve/Don't replay the boredom.mp3
+/home/tony/Music/Eve/Dr.mp3
 /home/tony/Music/Eve/Dramaturgy.mp3
 /home/tony/Music/Eve/Heart Forecast.mp3
 /home/tony/Music/Eve/How to Eat Life.mp3
 /home/tony/Music/Eve/Last Dance.mp3
+/home/tony/Music/Eve/Outsider.mp3
+/home/tony/Music/Eve/Raison d'être.mp3
 /home/tony/Music/Eve/Snow.mp3
+/home/tony/Music/Eve/Taikutsuwo Saienshinaide.mp3
 /home/tony/Music/Eve/The Secret About That Girl.mp3
 /home/tony/Music/Eve/This World to You.mp3
 /home/tony/Music/Eve/Tokyo Ghetto.mp3
 /home/tony/Music/Eve/Umiyuri Kaitei Tan Utattemita.mp3
 /home/tony/Music/Eve/Wakusei Loop.mp3
+/home/tony/Music/Eve/Yoku.mp3
 /home/tony/Music/Eve/Kaikai Kitan.mp3
 /home/tony/Music/Jujutsu Kaisen/Kaikai Kitan.mp3
 /home/tony/Music/Eve/Furiwoshita - Eve.mp3
+/home/tony/Music/Eve/Furiwoshita.mp3
 /home/tony/Music/Eve/Dream Lantern (cover).mp3
 /home/tony/Music/Eve/Rain and Petra (cover).mp3
 /home/tony/Music/Eve/ROKI (cover).mp3
@@ -169,11 +197,17 @@
 /home/tony/Music/Eve/Suna no Wakusei (cover).mp3
 /home/tony/Music/Eve/This Fucked Up Beautiful World Exists for Me Sang it (cover).mp3
 /home/tony/Music/Eve/As you like it - Eve.mp3
+/home/tony/Music/Eve/As you like it.mp3
 /home/tony/Music/Eve/Mabel (cover) - Eve.mp3
+/home/tony/Music/Eve/Mabel (cover).mp3
 /home/tony/Music/Eve/Just life (cover) - Eve.mp3
+/home/tony/Music/Eve/Just life (cover).mp3
 /home/tony/Music/Eve/Airhead (cover) - Eve.mp3
+/home/tony/Music/Eve/Airhead (cover).mp3
 /home/tony/Music/Eve/Bokura Mada Underground - Eve.mp3
+/home/tony/Music/Eve/Bokura Mada Underground.mp3
 /home/tony/Music/Eve/Yuusei Boushi - Eve MV.mp3
+/home/tony/Music/Eve/Yuusei Boushi.mp3
 /home/tony/Music/Otros/Raison d'être.mp3
 /home/tony/Music/Mirai Nikki/1) Blood Teller.mp3
 /home/tony/Music/Mirai Nikki/2) Dead END.mp3
@@ -245,6 +279,7 @@
 /home/tony/Music/Naruto/Naruto Openings/9 _ Yura Yura.mp3
 /home/tony/Music/Naruto/Shippuden Endings/20 _ By My Side.mp3
 /home/tony/Music/Bleach/3) Ichirin no Hana.mp3
+/home/tony/Music/Otros/Stand by me, Stand by you.mp3
 /home/tony/Music/Dragon Ball/Makafushigi Adventure.mp3
 /home/tony/Music/Dragon Ball/CHA-LA HEAD CHA-LA.mp3
 /home/tony/Music/Dragon Ball/Kusuburu Heart ni Hi o Tsukero!!.mp3
@@ -276,24 +311,34 @@
 /home/tony/Music/Otros/Mōsō Express.mp3
 /home/tony/Music/Steins;Gate/Fatima.mp3
 /home/tony/Music/Kenichi/Be Strong - Kana Yazumi.mp3
+/home/tony/Music/KDA/MORE.mp3
 /home/tony/Music/Otros/MORE.mp3
+/home/tony/Music/KDA/POP STARS.mp3
 /home/tony/Music/Otros/POP STARS.mp3
 /home/tony/Music/Bleach/8) CHU-BURA.mp3
 /home/tony/Music/Hunter X Hunter/Oyahou.mp3
+/home/tony/Music/Kenshi Yonezu/Shinigami.mp3
 /home/tony/Music/Kenshi Yonezu/Eine Kleine.mp3
 /home/tony/Music/Kenshi Yonezu/Electric Shock.mp3
 /home/tony/Music/Kenshi Yonezu/Lemon.mp3
 /home/tony/Music/Kenshi Yonezu/Loser - Kenshi Yonezu.mp3
+/home/tony/Music/Kenshi Yonezu/Loser.mp3
 /home/tony/Music/Instrumental/PEACE SIGN (Instrumental).mp3
+/home/tony/Music/Boku no Hero Academia/2) PEACE SIGN.mp3
 /home/tony/Music/Boku no Hero Academia/PEACE SIGN.mp3
 /home/tony/Music/Kenshi Yonezu/PEACE SIGN.mp3
 /home/tony/Music/Kenshi Yonezu/Neighbourhood.mp3
 /home/tony/Music/Kenshi Yonezu/Yumekuisyoujyo.mp3
 /home/tony/Music/Otros/OUKARANMAN.mp3
 /home/tony/Music/Otros/Watashi ga Motenai no wa Dou Kangaete mo Omaera ga Warui.mp3
+/home/tony/Music/King Gnu/Sakayume.mp3
 /home/tony/Music/King Gnu/Umbrella - King Gnu.mp3
+/home/tony/Music/King Gnu/Umbrella.mp3
 /home/tony/Music/King Gnu/Day.mp3
 /home/tony/Music/King Gnu/Flying boat.mp3
+/home/tony/Music/Kiro Akiyama/Caffeine.mp3
+/home/tony/Music/Kiro Akiyama/Shutter chance.mp3
+/home/tony/Music/Kiro Akiyama/Cracker Shadow.mp3
 /home/tony/Music/Otros/Cracker Shadow - Kiro Akiyama.mp3
 /home/tony/Music/Naruto/Shippuden Endings/11 _ Omae Dattanda.mp3
 /home/tony/Music/Otros/Chiisana Koi No Uta.mp3
@@ -306,11 +351,13 @@
 /home/tony/Music/Neon Genesis Evangelion/Tsubasa wo Kudasai.mp3
 /home/tony/Music/Otros/My R.mp3
 /home/tony/Music/Boku no Hero Academia/Hero Too!!.mp3
+/home/tony/Music/Boku no Hero Academia/5) Make my story.mp3
 /home/tony/Music/Boku no Hero Academia/Make my story.mp3
 /home/tony/Music/Psycho Pass/1) Abnormalize.mp3
 /home/tony/Music/Psycho Pass/3) Enigmatic Feeling.mp3
 /home/tony/Music/Otros/I'm a Hero.mp3
 /home/tony/Music/Otros/Unravel.mp3
+/home/tony/Music/Boku no Hero Academia/3) Datte Atashi no Hero.mp3
 /home/tony/Music/Boku no Hero Academia/Datte Atashi no Hero.mp3
 /home/tony/Music/Otros/Sweet Friendship.mp3
 /home/tony/Music/Otros/Sailor Spark Operation!.mp3
@@ -321,10 +368,12 @@
 /home/tony/Music/OST/Soul Eater Disc 1/03 - PSYCHEDELIC SOULJAM.mp3
 /home/tony/Music/OST/Soul Eater Disc 1/20 - Bang! Bang! Bang! Bang! Have a Nice Dream.mp3
 /home/tony/Music/OST/Soul Eater Disc 1/19 - Death the Kid (So Crazy).mp3
+/home/tony/Music/Otros/I'll call your name.mp3
 /home/tony/Music/Dragon Ball/La Fantástica Aventura.mp3
 /home/tony/Music/Mafumafu/Hated by Life Itself.mp3
 /home/tony/Music/Mafumafu/Inochi ni Kirawarete Iru.mp3
 /home/tony/Music/Mafumafu/Hitomodoki - Mafumafu.mp3
+/home/tony/Music/Mafumafu/Hitomodoki.mp3
 /home/tony/Music/Otros/Nee.mp3
 /home/tony/Music/One Piece/Memories.mp3
 /home/tony/Music/One Piece/Run! Run! Run!.mp3
@@ -340,7 +389,10 @@
 /home/tony/Music/Otros/Suna no Wakusei.mp3
 /home/tony/Music/Otros/Kawaki wo Ameku.mp3
 /home/tony/Music/Kyoukai no Kanata/Kyoukai no Kanata.mp3
+/home/tony/Music/Miyashita Yuu/Lastlive.mp3
+/home/tony/Music/Miyashita Yuu/Penguin's Detour.mp3
 /home/tony/Music/Otros/Penguin's Detour.mp3
+/home/tony/Music/Miyashita Yuu/Wozwald.mp3
 /home/tony/Music/Otros/Wozwald.mp3
 /home/tony/Music/Mob Psycho 100/99.mp3
 /home/tony/Music/Kenichi/Yahoo!! - MORIKAWA MIHO & ASAKURA AKIRA.mp3
@@ -365,6 +417,8 @@
 /home/tony/Music/Psycho Pass/2) Out of Control.mp3
 /home/tony/Music/Otros/Shiki no Uta.mp3
 /home/tony/Music/Lofi/The Nujabes Compilation.mp3
+/home/tony/Music/Official Hige Dandism/115 Million Kilometer Film.mp3
+/home/tony/Music/Official Hige Dandism/Pretender.mp3
 /home/tony/Music/Naruto/Shippuden Endings/18 _ Yokubou o Sakebe.mp3
 /home/tony/Music/Otros/Rage on!!.mp3
 /home/tony/Music/Fairy Tail/Tsuioku Merry Go Round.mp3
@@ -372,6 +426,7 @@
 /home/tony/Music/Naruto/Naruto Endings/14 _ Pinocchio.mp3
 /home/tony/Music/Berserk/Tell Me Why.mp3
 /home/tony/Music/Otros/ICHIDAIJI.mp3
+/home/tony/Music/Boku no Hero Academia/1) THE DAY.mp3
 /home/tony/Music/Boku no Hero Academia/THE DAY.mp3
 /home/tony/Music/Naruto/Naruto Endings/04 _ Alive.mp3
 /home/tony/Music/Naruto/Shippuden Endings/26 _ Yume wo Daite.mp3
@@ -380,6 +435,7 @@
 /home/tony/Music/Dragon Ball/Cha-La Head-Cha-La.mp3
 /home/tony/Music/Toradora/1) Pre Parade Rie Kugimiya.mp3
 /home/tony/Music/Akame ga Kill/Liar Mask - Rika Mayama.mp3
+/home/tony/Music/Akame ga Kill/Liar Mask.mp3
 /home/tony/Music/Boku no Hero Academia/Shout baby - Ryokuoushoku Shakai.mp3
 /home/tony/Music/Otros/Super Shooter.mp3
 /home/tony/Music/Naruto/Naruto Endings/02 _ Harmonia.mp3
@@ -399,6 +455,7 @@
 /home/tony/Music/Bleach/13) Ranbu no Melody.mp3
 /home/tony/Music/Naruto/Naruto Openings/7 _ Wave Wind Satellite.mp3
 /home/tony/Music/Akame ga Kill/Skyreach - Sora Amamiya.mp3
+/home/tony/Music/Akame ga Kill/Skyreach.mp3
 /home/tony/Music/OST/Soul Eater Disc 1/02 - Soul Eater (So Scandalous).mp3
 /home/tony/Music/Gintama/Genjou Destruction.mp3
 /home/tony/Music/Otros/JUST ONE LIFE.mp3
@@ -413,6 +470,7 @@
 /home/tony/Music/Kyoukai no Kanata/Daisy.mp3
 /home/tony/Music/Naruto/Shippuden Endings/18 _ Line.mp3
 /home/tony/Music/Haikyu!!/03. Ah Yeah!!.mp3
+/home/tony/Music/SUPER BEAVER/Rashisa.mp3
 /home/tony/Music/Naruto/Shippuden Endings/09 _ Shinkokyuu.mp3
 /home/tony/Music/Otros/My Dearest.mp3
 /home/tony/Music/Berserk/Forces.mp3
@@ -463,7 +521,9 @@
 /home/tony/Music/Inazuma Eleven/7) Ten Made Todoke!.mp3
 /home/tony/Music/Inazuma Eleven/3) Tsunagariyo!.mp3
 /home/tony/Music/Inazuma Eleven/6) Bokura no Goal!.mp3
+/home/tony/Music/Otros/Reason for existence.mp3
 /home/tony/Music/Inazuma Eleven/1) Seishun Oden.mp3
+/home/tony/Music/Otros/Quiet room.mp3
 /home/tony/Music/Otros/Sugar Song and Bitter Step.mp3
 /home/tony/Music/Naruto/Shippuden Endings/21 _ Cascade.mp3
 /home/tony/Music/Bleach/2) D-TecnoLife.mp3
@@ -471,8 +531,11 @@
 /home/tony/Music/UVERworld/Colors of the Heart.mp3
 /home/tony/Music/UVERworld/Hitori Janai Kara.mp3
 /home/tony/Music/UVERworld/SORA.mp3
+/home/tony/Music/Boku no Hero Academia/4) ODD FUTURE (I Keep My Ideals Version) - UVERworld .mp3
 /home/tony/Music/Boku no Hero Academia/ODD FUTURE (I Keep My Ideals Version) - UVERworld .mp3
+/home/tony/Music/UVERworld/ODD FUTURE (I Keep My Ideals Version).mp3
 /home/tony/Music/UVERworld/ODD FUTURE (I Keep My Ideals Version) - UVERworld .mp3
+/home/tony/Music/Boku no Hero Academia/4) ODD FUTURE.mp3
 /home/tony/Music/Boku no Hero Academia/ODD FUTURE.mp3
 /home/tony/Music/UVERworld/ODD FUTURE.mp3
 /home/tony/Music/One Piece/1) We are!.mp3
@@ -498,8 +561,12 @@
 /home/tony/Music/Otros/Crowds.mp3
 /home/tony/Music/Jujutsu Kaisen/Vivid Vice.mp3
 /home/tony/Music/Fairy Tail/Be As One.mp3
+/home/tony/Music/Yama/Blood Flow.mp3
+/home/tony/Music/Yama/Sleeping town.mp3
 /home/tony/Music/Otros/Haru o tsugeru.mp3
+/home/tony/Music/Yama/Haru o tsugeru.mp3
 /home/tony/Music/Otros/Paralysis.mp3
+/home/tony/Music/Yama/Paralysis.mp3
 /home/tony/Music/Naruto/Shippuden Openings/17 _ Kaze.mp3
 /home/tony/Music/OST/Naruto/Impregnable.mp3
 /home/tony/Music/OST/Naruto/Reverse situation.mp3
@@ -508,6 +575,8 @@
 /home/tony/Music/OST/Naruto/Rinkai.mp3
 /home/tony/Music/Otros/Blank pretend-rain.mp3
 /home/tony/Music/Otros/Racing into the night.mp3
+/home/tony/Music/Yoh Kamiyama/CUT.mp3
+/home/tony/Music/Yoh Kamiyama/Kiito.mp3
 /home/tony/Music/Yoh Kamiyama/Sugar Highway.mp3
 /home/tony/Music/Yoh Kamiyama/YELLOW.mp3
 /home/tony/Music/Yoh Kamiyama/Laundry.mp3
@@ -515,6 +584,8 @@
 /home/tony/Music/Yoh Kamiyama/Irokousui.mp3
 /home/tony/Music/Gintama/2) Tooi Nioi.mp3
 /home/tony/Music/Neon Genesis Evangelion/The Cruel Angel's Thesis.mp3
+/home/tony/Music/Yorushika/Howl At The Moon.mp3
+/home/tony/Music/Yorushika/That's why I quit music.mp3
 /home/tony/Music/Mirai Nikki/2) Filament.mp3
 /home/tony/Music/Mirai Nikki/1) Kuusou Mesorogiwi.mp3
 /home/tony/Music/Mirai Nikki/3) Kyouki Chinden.mp3
@@ -542,6 +613,10 @@
 /home/tony/Music/OST/Haikyuu!! Karasuno Koukou VS Shiratorizawa Gakuen Koukou Original Soundtrack/15. Just 1 Point.mp3
 /home/tony/Music/OST/My Hero Academia Original Soundtrack/Soko ni wa hīrō ga iru.mp3
 /home/tony/Music/OST/Haikyuu!! Karasuno Koukou VS Shiratorizawa Gakuen Koukou Original Soundtrack/01. Volleyball is a sport where you're always looking up!!!.mp3
+/home/tony/Music/Yuuri/BETELGEUSE.mp3
+/home/tony/Music/Yuuri/Dried Flower.mp3
+/home/tony/Music/Yuuri/Mizukiri.mp3
+/home/tony/Music/Yuuri/Shutter.mp3
 /home/tony/Music/Hunter X Hunter/5) Hyori Ittai.mp3
 /home/tony/Music/Hunter X Hunter/3) Nagareboshi kirari.mp3
 /home/tony/Music/Hunter X Hunter/4) Reason.mp3

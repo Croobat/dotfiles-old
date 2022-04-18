@@ -7,8 +7,10 @@ xrandr --output HDMI1 --auto --pos -1600x500
 # Keyboard Altgr-intl (swapped caps and escape)
 setxkbmap -layout us -variant altgr-intl -option caps:swapescape
 
-# QT5 enviromental variable
+# Default exports
 export QT_QPA_PLATFORMTHEME=qt5ct
+export EDITOR=nvim
+
 
 # JDK compatibility
 export AWT_TOOLKIT=MToolkit
@@ -25,10 +27,6 @@ xset r rate 250 40
 # Disable screen turning off
 xset -dpms
 xset s off
-
-# Default apps
-export BROWSER=qutebrowser
-export EDITOR=nvim
 
 # Startup apps
 sxhkd -t 2 &
