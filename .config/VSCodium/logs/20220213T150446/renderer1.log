@@ -1,0 +1,7 @@
+[2022-02-13 15:04:47.927] [renderer1] [info] IExtensionHostStarter.start() took 165 ms.
+[2022-02-13 15:04:48.327] [renderer1] [error] [Extension Host] (node:4139) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-02-13 15:05:04.418] [renderer1] [info] IExtensionHostStarter.start() took 21 ms.
+[2022-02-13 15:05:05.215] [renderer1] [warning] [File Watcher (parcel)] correcting a path to watch that seems to be a symbolic link or wrong casing (original: /home/tony/Downloads/junior, real: /home/tony/OneDrive - Instituto Politecnico Nacional/Downloads/junior)
+[2022-02-13 15:05:05.862] [renderer1] [error] [Extension Host] (node:4367) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,13 @@
+[2022-02-13T21:04:50.035Z] Validating found git in: git
+[2022-02-13T21:04:50.112Z] Using git 2.35.1 from git
+[2022-02-13T21:04:50.624Z] > git rev-parse --git-dir [164ms]
+[2022-02-13T21:04:50.635Z] Open repository: /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/HTML y CSS práctico/practicas
+[2022-02-13T21:04:51.024Z] > git symbolic-ref --short HEAD [45ms]
+[2022-02-13T21:04:51.054Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [15ms]
+[2022-02-13T21:04:51.079Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-02-13T21:04:51.083Z] > git remote --verbose [6ms]
+[2022-02-13T21:04:51.106Z] > git config --get commit.template [10ms]
+[2022-02-13T21:04:51.165Z] > git config --local branch.main.github-pr-owner-number [4ms]
+[2022-02-13T21:04:51.240Z] > git config --local branch.main.github-pr-owner-number [2ms]
+[2022-02-13T21:04:51.470Z] > git ls-files --stage -- /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/HTML y CSS práctico/practicas/index.html [5ms]
+[2022-02-13T21:04:51.761Z] > git cat-file -s 08e107624307cf893dd9be9eda2ccb1f38235ac7 [168ms]

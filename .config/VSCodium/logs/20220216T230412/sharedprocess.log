@@ -1,0 +1,8 @@
+[2022-02-16 23:04:17.827] [sharedprocess] [info] Starting worker process with pid 37621 (type: fileWatcher, window: 1).
+[2022-02-16 23:04:22.483] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-02-16 23:04:24.182] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-02-16 23:05:54.767] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/tony/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.1.1301856528
+[2022-02-16 23:05:57.872] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.633cfce8-537b-49f4-a152-e6bd79cee51a: ms-toolsai.jupyter
+[2022-02-16 23:05:58.620] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/ms-toolsai.jupyter-2022.1.1301856528
+[2022-02-16 23:05:58.670] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-02-16 23:05:58.810] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter

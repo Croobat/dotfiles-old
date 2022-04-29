@@ -1,0 +1,66 @@
+[2022-04-17 22:31:36.607] [sharedprocess] [info] Starting worker process with pid 37649 (type: fileWatcher, window: 1).
+[2022-04-17 22:31:40.765] [sharedprocess] [info] Deleted from disk esbenp.prettier-vscode /home/tony/.vscode-oss/extensions/esbenp.prettier-vscode-9.2.0
+[2022-04-17 22:31:43.102] [sharedprocess] [info] Getting Manifest... dracula-theme.theme-dracula
+[2022-04-17 22:31:43.302] [sharedprocess] [info] Getting Manifest... esbenp.prettier-vscode
+[2022-04-17 22:31:43.304] [sharedprocess] [info] Getting Manifest... github.vscode-pull-request-github
+[2022-04-17 22:31:43.305] [sharedprocess] [info] Getting Manifest... johnpapa.vscode-peacock
+[2022-04-17 22:31:43.306] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-04-17 22:31:43.307] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-17 22:31:43.309] [sharedprocess] [info] Getting Manifest... proxzima.sweetdracula
+[2022-04-17 22:31:43.311] [sharedprocess] [info] Getting Manifest... ritwickdey.liveserver
+[2022-04-17 22:31:43.312] [sharedprocess] [info] Getting Manifest... yandeu.five-server
+[2022-04-17 22:31:44.897] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2022-04-17 22:31:45.192] [sharedprocess] [info] Installing extension: proxzima.sweetdracula
+[2022-04-17 22:31:45.234] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2022-04-17 22:31:45.487] [sharedprocess] [info] Installing extension: github.vscode-pull-request-github
+[2022-04-17 22:31:45.501] [sharedprocess] [info] Installing extension: johnpapa.vscode-peacock
+[2022-04-17 22:31:45.536] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-04-17 22:31:45.562] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2022-04-17 22:31:45.610] [sharedprocess] [info] Installing extension: yandeu.five-server
+[2022-04-17 22:31:45.631] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-17 22:31:52.006] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /home/tony/.config/VSCodium/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.24.2
+[2022-04-17 22:31:52.627] [sharedprocess] [info] Downloaded extension: johnpapa.vscode-peacock /home/tony/.config/VSCodium/CachedExtensionVSIXs/johnpapa.vscode-peacock-4.0.1
+[2022-04-17 22:31:52.805] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.0475f5f7-2347-4472-8678-5b56a6b482c3: dracula-theme.theme-dracula
+[2022-04-17 22:31:53.069] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/dracula-theme.theme-dracula-2.24.2
+[2022-04-17 22:31:53.096] [sharedprocess] [info] Extracting completed. dracula-theme.theme-dracula
+[2022-04-17 22:31:53.343] [sharedprocess] [info] Extension installed successfully: dracula-theme.theme-dracula
+[2022-04-17 22:31:54.135] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.695ed6cf-76ee-4e8f-a613-d18cdbeda4b5: johnpapa.vscode-peacock
+[2022-04-17 22:31:54.378] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/johnpapa.vscode-peacock-4.0.1
+[2022-04-17 22:31:54.404] [sharedprocess] [info] Extracting completed. johnpapa.vscode-peacock
+[2022-04-17 22:31:54.582] [sharedprocess] [info] Extension installed successfully: johnpapa.vscode-peacock
+[2022-04-17 22:31:55.026] [sharedprocess] [info] Downloaded extension: yandeu.five-server /home/tony/.config/VSCodium/CachedExtensionVSIXs/yandeu.five-server-0.1.4
+[2022-04-17 22:31:55.375] [sharedprocess] [info] Downloaded extension: github.vscode-pull-request-github /home/tony/.config/VSCodium/CachedExtensionVSIXs/github.vscode-pull-request-github-0.40.0
+[2022-04-17 22:31:55.861] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver /home/tony/.config/VSCodium/CachedExtensionVSIXs/ritwickdey.liveserver-5.7.5
+[2022-04-17 22:31:56.105] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.99f742eb-a8b0-4178-8dbe-87592055e312: github.vscode-pull-request-github
+[2022-04-17 22:31:56.989] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/github.vscode-pull-request-github-0.40.0
+[2022-04-17 22:31:57.005] [sharedprocess] [info] Extracting completed. github.vscode-pull-request-github
+[2022-04-17 22:31:57.252] [sharedprocess] [info] Extension installed successfully: github.vscode-pull-request-github
+[2022-04-17 22:31:59.248] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/tony/.config/VSCodium/CachedExtensionVSIXs/esbenp.prettier-vscode-9.5.0
+[2022-04-17 22:32:00.180] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.32b41535-ba50-42ab-ac97-5eb4dc5f2a85: esbenp.prettier-vscode
+[2022-04-17 22:32:05.523] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/esbenp.prettier-vscode-9.5.0
+[2022-04-17 22:32:05.540] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2022-04-17 22:32:06.022] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2022-04-17 22:32:06.463] [sharedprocess] [info] Downloaded extension: proxzima.sweetdracula /home/tony/.config/VSCodium/CachedExtensionVSIXs/proxzima.sweetdracula-1.0.8
+[2022-04-17 22:32:06.684] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.ac5ecd3f-02ca-49c4-972c-7d2076e341bd: proxzima.sweetdracula
+[2022-04-17 22:32:07.554] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/proxzima.sweetdracula-1.0.8
+[2022-04-17 22:32:07.561] [sharedprocess] [info] Extracting completed. proxzima.sweetdracula
+[2022-04-17 22:32:07.834] [sharedprocess] [info] Extension installed successfully: proxzima.sweetdracula
+[2022-04-17 22:32:08.226] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/tony/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-17 22:32:08.869] [sharedprocess] [info] Downloaded extension: ms-python.python /home/tony/.config/VSCodium/CachedExtensionVSIXs/ms-python.python-2022.4.1
+[2022-04-17 22:32:09.392] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.210832ba-0ec9-4ee6-9b3a-b3fc7f4a596d: ritwickdey.liveserver
+[2022-04-17 22:32:11.984] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/ritwickdey.liveserver-5.7.5
+[2022-04-17 22:32:11.993] [sharedprocess] [info] Extracting completed. ritwickdey.liveserver
+[2022-04-17 22:32:12.189] [sharedprocess] [info] Extension installed successfully: ritwickdey.liveserver
+[2022-04-17 22:32:12.699] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.7349827a-9b7d-4705-ac33-a90015d7cb30: yandeu.five-server
+[2022-04-17 22:32:15.506] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/yandeu.five-server-0.1.4
+[2022-04-17 22:32:16.252] [sharedprocess] [info] Extracting completed. yandeu.five-server
+[2022-04-17 22:32:16.637] [sharedprocess] [info] Extension installed successfully: yandeu.five-server
+[2022-04-17 22:32:16.737] [sharedprocess] [warning] Overwriting user extension /home/tony/.vscode-oss/extensions/yandeu.five-server-0.1.2 with /home/tony/.vscode-oss/extensions/yandeu.five-server-0.1.4.
+[2022-04-17 22:32:17.035] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.0a5dab70-a6b0-4326-8fc8-880866ec84b4: ms-toolsai.jupyter
+[2022-04-17 22:32:18.693] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-17 22:32:18.706] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-04-17 22:32:18.883] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-04-17 22:32:20.225] [sharedprocess] [info] Extracted extension to /home/tony/.vscode-oss/extensions/.717efefe-6ba0-4408-9205-e8819692ce2a: ms-python.python
+[2022-04-17 22:32:26.226] [sharedprocess] [info] Renamed to /home/tony/.vscode-oss/extensions/ms-python.python-2022.4.1
+[2022-04-17 22:32:26.236] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-04-17 22:32:26.353] [sharedprocess] [info] Extension installed successfully: ms-python.python

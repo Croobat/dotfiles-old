@@ -1,0 +1,4 @@
+[2022-02-13 15:00:54.141] [renderer3] [info] IExtensionHostStarter.start() took 69 ms.
+[2022-02-13 15:00:55.738] [renderer3] [error] [Extension Host] (node:3093) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-02-13 15:01:10.432] [renderer3] [warning] UNRESPONSIVE extension host, 'yandeu.five-server' took 94% of 1304.671ms, saved PROFILE here: 'file:///tmp/exthost-06b367.cpuprofile' [{"id":"gc","total":25189,"percentage":2},{"id":"program","total":1748,"percentage":0},{"id":"self","total":54160,"percentage":4},{"id":"yandeu.five-server","total":1223449,"percentage":94}]

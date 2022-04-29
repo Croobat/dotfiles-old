@@ -1,0 +1,4 @@
+[2022-02-13 14:59:02.011] [renderer1] [info] IExtensionHostStarter.start() took 87 ms.
+[2022-02-13 14:59:10.739] [renderer1] [error] [Extension Host] (node:2249) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-02-13 15:03:58.108] [renderer1] [warning] [backup tracker] suspended, ignoring dirty change event file:///home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/ECMAScript/practicas/src/es6/04-clases-modulos-generadores.js 

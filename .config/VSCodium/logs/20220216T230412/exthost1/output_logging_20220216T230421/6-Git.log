@@ -1,0 +1,10 @@
+[2022-02-17T05:04:26.682Z] Validating found git in: git
+[2022-02-17T05:04:26.747Z] Using git 2.35.1 from git
+[2022-02-17T05:04:27.087Z] > git rev-parse --git-dir [104ms]
+[2022-02-17T05:04:27.121Z] Open repository: /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/Front End Developer práctico/game-store
+[2022-02-17T05:04:30.806Z] > git symbolic-ref --short HEAD [107ms]
+[2022-02-17T05:04:30.974Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [146ms]
+[2022-02-17T05:04:31.099Z] > git remote --verbose [66ms]
+[2022-02-17T05:04:31.173Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [169ms]
+[2022-02-17T05:04:31.277Z] > git config --get commit.template [62ms]
+[2022-02-17T05:04:31.392Z] > git config --local branch.main.github-pr-owner-number [154ms]
