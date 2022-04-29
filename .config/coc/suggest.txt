@@ -1,3 +1,32 @@
+java8|java-8-openjdk|file|
+gree|greenLED|around|
+gre|greenLED|around|
+high|HIGH|around|
+gree|greenLED|buffer|
+red|redLED|buffer|
+gre|greenLED|around|
+OU|OUTPUT|around|
+red|redLED|around|
+pinmode|pinMode|around|
+spea|speakerON|buffer|
+noO|noOperando|buffer|
+OPS|OPState|buffer|
+doors|doorState|around|
+spea|speakerON|buffer|
+speak|speakerOFF|buffer|
+spea|speakerON|buffer|
+tog|toggleOP|buffer|
+if|if|snippets|  
+state|stateOP|around|
+speaker|speakerFreq|buffer|
+if|if|snippets|  
+spea|speaker|around|
+toggle|toggleSpeaker|buffer|
+toggle|toggleSpeaker|buffer|
+speaker|speakerState|buffer|
+if|if|snippets|  
+if|if|snippets|  
+u|uuid|snippets|  
 E0000|E0000|around|
 dow|Downloads|file|
 D|Downloads|file|

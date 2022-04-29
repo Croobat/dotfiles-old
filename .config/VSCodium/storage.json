@@ -32,13 +32,14 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.33",
+                        "id": "submenuitem.34",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -259,15 +260,18 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -277,7 +281,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.33",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -338,11 +342,13 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -387,11 +393,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -512,7 +520,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.21",
+                        "id": "submenuitem.22",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -538,8 +546,12 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
+                                    "label": "Show &&Primary Side Bar",
                                     "checked": true
+                                },
+                                {
+                                    "id": "workbench.action.toggleAuxiliaryBar",
+                                    "label": "Show Secondary Si&&de Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -556,18 +568,14 @@
                                     "label": "Show &&Panel"
                                 },
                                 {
-                                    "id": "workbench.action.toggleAuxiliaryBar",
-                                    "label": "Show Si&&de Panel"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Side Bar Right"
+                                    "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
-                                    "id": "submenuitem.31",
+                                    "id": "submenuitem.32",
                                     "label": "Panel Position",
                                     "submenu": {
                                         "items": [
@@ -588,7 +596,7 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.30",
+                                    "id": "submenuitem.31",
                                     "label": "Align Panel",
                                     "submenu": {
                                         "items": [
@@ -631,7 +639,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.28",
+                        "id": "submenuitem.29",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -751,7 +759,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "checked": true
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -779,7 +787,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -788,13 +797,14 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.35",
+                        "id": "submenuitem.36",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -843,7 +853,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.36",
+                        "id": "submenuitem.37",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1045,7 +1055,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.30",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1674,7 +1684,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 504,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1684,10 +1694,10 @@
             "backupPath": "/home/tony/.config/VSCodium/Backups/1645403397042",
             "uiState": {
                 "mode": 1,
-                "x": 2663,
-                "y": 26,
-                "width": 850,
-                "height": 1047
+                "x": 1604,
+                "y": 23,
+                "width": 1912,
+                "height": 1053
             }
         },
         "openedWindows": []

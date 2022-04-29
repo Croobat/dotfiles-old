@@ -104,7 +104,7 @@ handle_extension() {
             elinks -dump "${FILE_PATH}" && exit 5
             pandoc -s -t markdown -- "${FILE_PATH}" && exit 5
             ;;
-        
+
         ## JSON
         json)
             jq --color-output . "${FILE_PATH}" && exit 5
@@ -131,9 +131,9 @@ handle_image() {
     local mimetype="${1}"
     case "${mimetype}" in
         ## SVG
-        # image/svg+xml|image/svg)
-           #  convert -- "${FILE_PATH}" "${IMAGE_CACHE_PATH}" && exit 6
-           #  exit 1;;
+        image/svg+xml|image/svg)
+            convert -- "${FILE_PATH}" "${IMAGE_CACHE_PATH}" && exit 6
+            exit 1;;
 
         ## DjVu
         # image/vnd.djvu)

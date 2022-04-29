@@ -12,6 +12,9 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export EDITOR=nvim
 
 
+## Java tools
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk'
+export PATH=$JAVA_HOME/bin:$PATH
 # JDK compatibility
 export AWT_TOOLKIT=MToolkit
 wmname compiz

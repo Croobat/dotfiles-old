@@ -207,8 +207,8 @@
        usepressure="1"
        usetilt="0"
        keep_selected="1"
-       abs_width="1"
-       unit="mm">
+       abs_width="0"
+       unit="px">
       <group
          id="preset">
         <group
@@ -393,7 +393,8 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1" />
+       selcue="1"
+       curvature="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -649,7 +650,9 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     dpifixbackup="1"
+     dpiupdatemethod="0">
     <group
        id="renderingcache"
        size="512" />
