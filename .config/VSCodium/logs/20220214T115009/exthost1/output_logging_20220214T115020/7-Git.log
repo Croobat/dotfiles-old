@@ -1,4 +1,0 @@
-[2022-02-14T17:50:31.218Z] Validating found git in: git
-[2022-02-14T17:50:42.397Z] Using git 2.35.1 from git
-[2022-02-14T17:50:43.379Z] > git rev-parse --git-dir [244ms]
-[2022-02-14T17:50:43.402Z] Open repository: /home/tony/OneDrive - Instituto Politecnico Nacional/Documents/Programming/Platzi/ECMAScript/practicas

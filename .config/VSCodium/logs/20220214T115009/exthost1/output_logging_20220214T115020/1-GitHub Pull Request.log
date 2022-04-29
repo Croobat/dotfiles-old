@@ -1,9 +1,0 @@
-[Info] /home/tony/.ssh/config: ENOENT: no such file or directory, open '/home/tony/.ssh/config'
-[Info] Registering git provider
-[Info] Looking for git repository
-[Info] Found 0 repositories during activation
-[Info] Git repository found, initializing review manager and pr tree view.
-[Info] Repository file:///home/tony/OneDrive%20-%20Instituto%20Politecnico%20Nacional/Documents/Programming/Platzi/ECMAScript/practicas has been opened
-[Info] Review> Validate state in progress
-[Info] Review> Validating state...
-[Info] Cannot updates repositories as git is uninitialized

@@ -39,7 +39,8 @@ flameshot &
 nitrogen --restore &
 unclutter --timeout 15 &
 greenclip daemon &
- alacritty --title launch-nvim -e nvim &
+alacritty --title launch-nvim -e nvim &
+dunst &
 
 # Statusbar loop
 while true; do
