@@ -1,0 +1,6 @@
+res://Scenes/Main/Gamescene.tscn
+res://Scenes/Main/SceneHandeler.tscn
+res://Scenes/UI/MainMenu.tscn
+res://Scenes/UI/UI.gd
+res://Scenes/UI/Volumebar.tres
+res://Scenes/UI/default_env.tres
